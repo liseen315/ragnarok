@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="gameinterfaces.IApp"/>
+    <classEntry path="core.App"/>
+    <classEntry path="gamedata.GlobalVars"/>
+    <classEntry path="observer.LDispatch"/>
+    <classEntry path="observer.Notification"/>
+    <classEntry path="consts.nots.ConstNotifactionType"/>
+    <classEntry path="core.BaseSprite"/>
+    <classEntry path="events.BaseEvent"/>
+    <classEntry path="manager.LayerManager"/>
+    <classEntry path="game.layers.BgLayer"/>
+    <classEntry path="game.layers.SceneLayer"/>
+    <classEntry path="game.layers.ScenepannelLayer"/>
+    <classEntry path="game.layers.FightLayer"/>
+    <classEntry path="game.layers.MenuLayer"/>
+    <classEntry path="game.layers.MiddleMenuLayer"/>
+    <classEntry path="game.layers.GuideLayer"/>
+    <classEntry path="game.layers.FullPopLayer"/>
+    <classEntry path="game.layers.PopLayer"/>
+    <classEntry path="game.layers.AlertLayer"/>
+    <classEntry path="game.layers.TipsMenuLayer"/>
+    <classEntry path="game.layers.MarqueeLayer"/>
+    <classEntry path="game.layers.TipLayer"/>
+    <classEntry path="game.layers.LoadingLayer"/>
+    <classEntry path="game.layers.ConsoleLayer"/>
+    <classEntry path="game.layers.SystemLayer"/>
+    <classEntry path="game.layers.TopLayer"/>
+    <classEntry path="manager.ModuleManager"/>
+    <classEntry path="consts.ModuleName"/>
+    <classEntry path="gameinterfaces.IModule"/>
+    <classEntry path="modules.main.MainModule"/>
+    <classEntry path="core.Mediator"/>
+    <classEntry path="modules.main.MainLoadMediator"/>
+    <classEntry path="consts.SuffixConst"/>
+    <classEntry path="manager.UrlManager"/>
+    <classEntry path="manager.PathManager"/>
+    <classEntry path="consts.PathConst"/>
+    <classEntry path="manager.LoadingManager"/>
+    <classEntry path="consts.nots.LoaderNote"/>
+    <classEntry path="loaders.CoreLoader"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
