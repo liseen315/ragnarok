@@ -1,6 +1,6 @@
 package core
 {
-	import consts.nots.ConstNotifactionType;
+	import consts.nots.LoadingNote;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
@@ -26,12 +26,12 @@ package core
 		
 		protected function regNot():void
 		{
-			LDispatch.addListener(ConstNotifactionType.LOADING_IMG_LOADED,this.mainImgLoaded);
+			LDispatch.addListener(LoadingNote.LOADING_IMG_LOADED,this.mainImgLoaded);
 		}
 		
 		protected function removeNot():void
 		{
-			LDispatch.removeListener(ConstNotifactionType.LOADING_IMG_LOADED,this.mainImgLoaded);
+			LDispatch.removeListener(LoadingNote.LOADING_IMG_LOADED,this.mainImgLoaded);
 		}
 		
 		private function mainImgLoaded(notic:Notification):void

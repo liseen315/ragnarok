@@ -6,7 +6,7 @@
     <classEntry path="gamedata.GlobalVars"/>
     <classEntry path="observer.LDispatch"/>
     <classEntry path="observer.Notification"/>
-    <classEntry path="consts.nots.ConstNotifactionType"/>
+    <classEntry path="consts.nots.LoadingNote"/>
     <classEntry path="core.BaseSprite"/>
     <classEntry path="events.BaseEvent"/>
     <classEntry path="manager.LayerManager"/>
@@ -40,6 +40,8 @@
     <classEntry path="manager.LoadingManager"/>
     <classEntry path="consts.nots.LoaderNote"/>
     <classEntry path="loaders.CoreLoader"/>
+    <classEntry path="loaders.SingleLoader"/>
+    <classEntry path="vos.LoaderDTO"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

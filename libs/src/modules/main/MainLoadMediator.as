@@ -7,6 +7,8 @@ package modules.main
 	
 	import core.Mediator;
 	
+	import loaders.SingleLoader;
+	
 	/**
 	 *主加载中介 
 	 * @author Administrator
@@ -32,7 +34,7 @@ package modules.main
 			BulkLoader.registerNewType(SuffixConst.SUF_TXT, BulkLoader.TYPE_BINARY, BinaryItem);
 			BulkLoader.registerNewType(SuffixConst.SUF_SWF, BulkLoader.TYPE_BINARY, BinaryItem);
 			
-			
+			var singleLoader:SingleLoader = new SingleLoader();
 		}
 	}
 }

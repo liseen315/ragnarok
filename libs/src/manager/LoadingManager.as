@@ -1,10 +1,13 @@
 package manager
 {
 	import consts.nots.LoaderNote;
+	import consts.nots.LoadingNote;
 	
 	import flash.utils.Dictionary;
 	
 	import observer.LDispatch;
+	
+	import vos.LoaderDTO;
 
 	/**
 	 *加载管理器 
@@ -30,6 +33,29 @@ package manager
 				_instance = new LoadingManager();
 			}
 			return _instance;
+		}
+		
+		public function loadBitmap(path:String):void
+		{
+			if(this._bmdic[path])
+			{
+				LDispatch.dispatch(LoadingNote.LOADING_IMG_LOADED,{
+					url:path,
+					bmd:this._bmdic[path]
+				})
+				return 
+			}
+			
+			var lDTO:LoaderDTO = new LoaderDTO();
+			lDTO.id = lDTO.url = path;
+			lDTO.isloop = false;
+			lDTO.callbackNote = LoaderNote.LM_SINGLE_LOADED;
+			lDTO.callbackParam = {
+				id:path,
+				url:path
+			}
+			
+			LDispatch.dispatch(LoaderNote.LOAD_SINGLE,lDTO);
 		}
 		
 		private function bmLoaded():void
