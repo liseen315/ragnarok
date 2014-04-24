@@ -4,6 +4,7 @@ package manager
 	import consts.nots.LoadingNote;
 	
 	import flash.display.Bitmap;
+	import flash.display.BitmapData;
 	import flash.utils.Dictionary;
 	
 	import observer.LDispatch;
@@ -60,6 +61,11 @@ package manager
 			LDispatch.dispatch(LoaderNote.LOAD_SINGLE,lDTO);
 		}
 		
+		public function getBM(bgmKey:String):BitmapData
+		{
+			return (this._bmdic[bgmKey] as BitmapData).clone();
+		}
+		
 		private function bmLoaded(notic:Notification):void
 		{
 			var idStr:String = (notic.data.param) ? notic.data.param.id.toString() : null;
@@ -77,5 +83,7 @@ package manager
 		{
 			
 		}
+		
+		
 	}
 }

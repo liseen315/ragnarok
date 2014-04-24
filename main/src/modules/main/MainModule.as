@@ -1,6 +1,7 @@
 package modules.main
 {
 	import consts.nots.LoadingNote;
+	import consts.nots.MainNote;
 	
 	import flash.display.Sprite;
 	
@@ -22,6 +23,7 @@ package modules.main
 		public function register():void
 		{
 			var mainLoadMediator:MainLoadMediator = new MainLoadMediator();
+			var mainMediator:MainMediator = new MainMediator();
 			
 			LDispatch.addListener(LoadingNote.LOADING_IMG_LOADED,this.registerReady);
 			
@@ -33,7 +35,7 @@ package modules.main
 		private function registerReady(notic:Notification):void
 		{
 			LDispatch.removeListener(LoadingNote.LOADING_IMG_LOADED,this.registerReady);
-			
+			LDispatch.dispatch(MainNote.SHOW_MAIN_LOADING);
 		}
 	}
 }

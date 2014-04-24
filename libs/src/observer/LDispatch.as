@@ -10,11 +10,11 @@ package observer
 	public class LDispatch
 	{
 		private static var _instance:LDispatch;
-		private var _observers:Dictionary;
+		private var _notificationMap:Dictionary;
 		
 		public function LDispatch()
 		{
-			_observers = new Dictionary();
+			_notificationMap = new Dictionary();
 		}
 		
 		/**
@@ -39,7 +39,7 @@ package observer
 		 */		
 		public static function dispatch(type:String,data:Object=null):void
 		{
-			LDispatch.getInstance().execute(type,new Notification(type,data));
+			LDispatch.getInstance().execute(new Notification(type,data));
 		}
 		
 		/**
@@ -72,18 +72,10 @@ package observer
 		 */		
 		private function add(type:String,callBack:Function):void
 		{
-			var callBackList:Array = _observers[type];
-			
-			if(callBackList==null){
-				callBackList=[];
-				_observers[type] = callBackList;
-			}else{
-				if(callBackList.indexOf(callBack)!=-1){
-					return;
-				}
-			}
-			
-			callBackList.push(callBack);
+			if (!this._notificationMap[type]){
+				this._notificationMap[type] = new Dic();
+			};
+			Dic(this._notificationMap[type]).regHandler(callBack);
 		}
 		
 		/**
@@ -94,15 +86,11 @@ package observer
 		 */		
 		private function remove(type:String,callBack:Function):void
 		{
-			var callBackList:Array = _observers[type];
-			var index:int=0;
-			if(callBackList){
-				
-				index = callBackList.indexOf(callBack);
-				if(index!=-1){
-					
-					callBackList.splice(index,1);
-				}
+			if (!this._notificationMap[type]){
+				return;
+			}
+			if (Dic(this._notificationMap[type]).hasHandler(callBack)){
+				Dic(this._notificationMap[type]).removeHandler(type,callBack);
 			}
 		}
 		
@@ -112,19 +100,17 @@ package observer
 		 * @param param
 		 * 
 		 */		
-		private function execute(type:String,not:Notification):void
+		private function execute(not:Notification):void
 		{
-			var list:Array = this._observers[type];
-			var fun:Function;
-			for each(fun in list){
-				try
-				{
-					fun(not);
-					
-				}catch(error:Error){
-					
-				}
+			var noticName:String = not.name;
+			if (this.hasNotification(noticName)){
+				Dic(this._notificationMap[noticName]).handle(not);
 			}
+		}
+		
+		private function hasNotification(noticName:String):Boolean
+		{
+			return this._notificationMap[noticName];
 		}
 		
 	}

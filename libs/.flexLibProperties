@@ -30,7 +30,6 @@
     <classEntry path="manager.ModuleManager"/>
     <classEntry path="consts.ModuleName"/>
     <classEntry path="gameinterfaces.IModule"/>
-    <classEntry path="modules.main.MainModule"/>
     <classEntry path="core.Mediator"/>
     <classEntry path="modules.main.MainLoadMediator"/>
     <classEntry path="consts.SuffixConst"/>
@@ -42,6 +41,11 @@
     <classEntry path="loaders.CoreLoader"/>
     <classEntry path="loaders.SingleLoader"/>
     <classEntry path="vos.LoaderDTO"/>
+    <classEntry path="modules.main.MainMediator"/>
+    <classEntry path="consts.nots.MainNote"/>
+    <classEntry path="consts.LoadingConst"/>
+    <classEntry path="gameinterfaces.ILoading"/>
+    <classEntry path="observer.Dic"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
