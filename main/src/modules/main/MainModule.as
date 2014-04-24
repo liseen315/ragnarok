@@ -1,5 +1,6 @@
 package modules.main
 {
+	import consts.nots.LoaderNote;
 	import consts.nots.LoadingNote;
 	import consts.nots.MainNote;
 	
@@ -36,6 +37,7 @@ package modules.main
 		{
 			LDispatch.removeListener(LoadingNote.LOADING_IMG_LOADED,this.registerReady);
 			LDispatch.dispatch(MainNote.SHOW_MAIN_LOADING);
+			LDispatch.dispatch(LoaderNote.LOAD_INIT);
 		}
 	}
 }

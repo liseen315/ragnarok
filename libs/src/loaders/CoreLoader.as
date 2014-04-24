@@ -7,6 +7,8 @@ package loaders
 	
 	import flash.display.Loader;
 	
+	import observer.Notification;
+	
 	import vos.LoaderDTO;
 
 	public class CoreLoader
@@ -16,6 +18,9 @@ package loaders
 		{
 			this.loader = new BulkLoader(name,retryNum);
 			this.loader.addEventListener(BulkProgressEvent.COMPLETE, this.completeHandler);
+		}
+		
+		protected function loadData(notic:Notification):void{
 		}
 		
 		protected function completeHandler(e:BulkProgressEvent):void{

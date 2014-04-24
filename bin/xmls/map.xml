@@ -1,0 +1,32 @@
+<root>
+  <map id="1" name="TownMap1" type="1" w="2500" h="450">
+    <element id="" name="" num="" type="" x="" y=""/>
+  </map>
+  <map id="2" name="TownMap2" type="1" w="2500" h="660">
+    <element id="" name="" num="" type=""/>
+  </map>
+  <map id="3" name="TownMap3" type="1" w="2100" h="660">
+    <element id="" name="" num="" type=""/>
+  </map>
+  <map id="4" name="TownMap4" type="1" w="2100" h="200">
+    <element id="" name="" num="" type=""/>
+  </map>
+  <map id="5" name="TownMap5" type="1" w="2100" h="660">
+    <element id="" name="" num="" type=""/>
+  </map>
+  <map id="6" name="TownMap6" type="1" w="2100" h="400">
+    <element id="" name="" num="" type=""/>
+  </map>
+  <map id="7" name="FightMap1" type="2" w="10000" h="750">
+    <element id="" name="" num="" type=""/>
+  </map>
+  <map id="8" name="FightMap2" type="2" w="10000" h="750">
+    <element id="" name="" num="" type=""/>
+  </map>
+  <map id="9" name="FightMap3" type="2" w="10000" h="750">
+    <element id="" name="" num="" type=""/>
+  </map>
+  <map id="10" name="" type="3" w="10000" h="750">
+    <element id="" name="" num="" type=""/>
+  </map>
+</root>

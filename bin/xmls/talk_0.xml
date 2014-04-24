@@ -1,0 +1,22 @@
+<root>
+  <talk id="1">
+    <dialog id="1" msg="俺老孙这花果山水帘洞可比天上自在多了！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="2">
+    <dialog id="1" msg="吾乃是菩提祖师座下，觉字辈弟子，道名觉因，取通觉前尘，洞悉因果之意。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="3">
+    <dialog id="1" msg="哎呦，哎呦，我的老腰。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="4">
+    <dialog id="1" msg="我们大王可厉害啦！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="6" imgid="" color="" data="3#1●商店" text="商店"/>
+    </dialog>
+  </talk>
+  <talk id="5">
+    <dialog id="1" msg="大王喊我来巡山……唱了起来。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="6">
+    <dialog id="1" msg="小点声，不要被天兵天将发现。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+</root>

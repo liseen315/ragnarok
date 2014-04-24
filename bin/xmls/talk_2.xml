@@ -1,0 +1,274 @@
+<root>
+  <talk id="102">
+    <dialog id="1" msg="（饮下一杯酒）。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="要喝酒，不如叫上你的猴子猴孙一起。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：把酒同欢"/>
+    </dialog>
+  </talk>
+  <talk id="103">
+    <dialog id="1" msg="你去猴兵乙那边问问小的们都集合回来了吗，咱操办个庆功会，开心开心" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：收拾残局"/>
+    </dialog>
+  </talk>
+  <talk id="104">
+    <dialog id="1" msg="集合？哪儿能呢，有逃到山下的、受伤的，正手忙脚乱呢，麻烦替我回大王一声，只怕还要再等等。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：收拾残局"/>
+    </dialog>
+  </talk>
+  <talk id="105" isMotionScreen="1">
+    <dialog id="1" msg="呼……" type="1" leftHeaderId="[HERO]" rightHeaderId="600101" dir="1" talkName="600101">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="……（这，怎么没一会儿就睡了？）" type="1" leftHeaderId="[HERO]" rightHeaderId="600101" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="师兄，怎么了？" type="1" leftHeaderId="[HERO]" rightHeaderId="600101" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="原来是你。方才我似醒非醒之中灵魂出窍，被两个鬼差带到了幽冥界。" type="1" leftHeaderId="[HERO]" rightHeaderId="600101" dir="1" talkName="600101">
+      <option type="2" imgid="" color="" data="5" text="下一步"/>
+    </dialog>
+    <dialog id="5" msg="幽冥界，那不是阎王所居？莫非阎王老儿看上了你，捉你去结阴亲？" type="1" leftHeaderId="[HERO]" rightHeaderId="600101" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="6" text="下一步"/>
+    </dialog>
+    <dialog id="6" msg="[HERO]你口味真重，走，我们看看阎王是何居心。" type="1" leftHeaderId="[HERO]" rightHeaderId="600101" dir="0" talkName="600101">
+      <option type="2" imgid="" color="" data="7" text="下一步"/>
+    </dialog>
+    <dialog id="7" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：醉里逢奇"/>
+    </dialog>
+  </talk>
+  <talk id="106">
+    <dialog id="1" msg="走，追去看看。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="107">
+    <dialog id="1" msg="小小鬼卒，不堪一击。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：醉里逢奇"/>
+    </dialog>
+  </talk>
+  <talk id="108">
+    <dialog id="1" msg="他们说我阳寿已尽，笑话，我老孙超出三界外，不在五行中，哪儿来的阳寿已尽？他们定是阎王老儿派来的。竟然跟着天庭一起为难我，不可容忍！&#xD;让我去抓了他们来吊着打！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：强闯地府"/>
+    </dialog>
+  </talk>
+  <talk id="109">
+    <dialog id="1" msg="那便去捉来那两个不长眼的鬼差吧！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="110">
+    <dialog id="1" msg="速去截下牛头马面，问问清楚，那两个胆子挂了肥油的是如何敢来勾爷爷我的魂魄！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：强闯地府"/>
+    </dialog>
+  </talk>
+  <talk id="114">
+    <dialog id="1" msg="气煞我也，走，抓住他们。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：牛头马面"/>
+    </dialog>
+  </talk>
+  <talk id="115">
+    <dialog id="1" msg="气煞我也，走，抓住他们。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="116">
+    <dialog id="1" msg="生死簿，确实曾听闻过，只是不知详细，老猕猴见识广博，你去问他一问吧。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：牛头马面"/>
+    </dialog>
+  </talk>
+  <talk id="117">
+    <dialog id="1" msg="恩人找我什么事？老猕猴，有事请教。你可知生死簿相关之事？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="老猕猴，有事请教。你可知生死簿相关之事？"/>
+    </dialog>
+    <dialog id="2" msg="曾听老一辈的讲过，这生死簿可不得了，写有天地之间所有生灵的阳寿，可添可减，待这上所写的阳寿数尽了，地府就会派勾魂使者来勾走生灵之魂魄，依生前所作所为，善恶结算，各有分派。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="3" text="哦？判官所在何处？"/>
+    </dialog>
+    <dialog id="3" msg="判官位于地府前殿，要到那里，需先经过忘川。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：生死簿"/>
+    </dialog>
+  </talk>
+  <talk id="118">
+    <dialog id="1" msg="恩人难道是想要生死簿吗？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="119">
+    <dialog id="1" msg="忘川的守备如何？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="果然比起之前严密一些。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：生死簿"/>
+    </dialog>
+  </talk>
+  <talk id="120">
+    <dialog id="1" msg="判官就在忘川之后的前殿之中主持事务。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="看我把他一波带走。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：判官"/>
+    </dialog>
+  </talk>
+  <talk id="121">
+    <dialog id="1" msg="判官就在忘川之后的前殿之中主持事务。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="122">
+    <dialog id="1" msg="招式犀利，走位风骚，赞！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：判官"/>
+    </dialog>
+  </talk>
+  <talk id="123">
+    <dialog id="1" msg="判官手上的生死簿也不过是附录而已，真正的还是掌握在阎王手中。&#xD;我去与师兄商量一番。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：艺高胆大"/>
+    </dialog>
+  </talk>
+  <talk id="124">
+    <dialog id="1" msg="那判官当真废物，不知阎王是否有意思些。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="师兄是想……"/>
+    </dialog>
+    <dialog id="2" msg="自然是攻入阎罗殿中，给他点厉害看看！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：艺高胆大"/>
+    </dialog>
+  </talk>
+  <talk id="125">
+    <dialog id="1" msg="走，先将地府守门的小鬼们扫荡个干净，拉点仇恨。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：攻入"/>
+    </dialog>
+  </talk>
+  <talk id="126">
+    <dialog id="1" msg="走，先将地府守门的小鬼们扫荡个干净。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="127">
+    <dialog id="1" msg="杀得痛快！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：攻入"/>
+    </dialog>
+  </talk>
+  <talk id="128">
+    <dialog id="1" msg="阎王殿就在不远处了。尚不知阎罗殿外是如何凶险。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="尚不知阎罗殿外是如何凶险。"/>
+    </dialog>
+    <dialog id="2" msg="怕什么，以你我之力，哪里还怕那些有的没的！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：粉碎"/>
+    </dialog>
+  </talk>
+  <talk id="129">
+    <dialog id="1" msg="再来！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="130">
+    <dialog id="1" msg="都说小鬼难缠，也未见有多难缠。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="螳臂当车，蚍蜉撼树，此类尔尔，so easy。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：粉碎"/>
+    </dialog>
+  </talk>
+  <talk id="131">
+    <dialog id="1" msg="去会会那阎王吧！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：六道阎罗"/>
+    </dialog>
+  </talk>
+  <talk id="132">
+    <dialog id="1" msg="去会会那阎王吧！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="133">
+    <dialog id="1" msg="当真是爽快，从此我这花果山的大小精怪们，在阴司都没了名字，通通寿与天齐，哈哈哈哈。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：六道阎罗"/>
+    </dialog>
+  </talk>
+  <talk id="134">
+    <dialog id="1" msg="悟空，速为为师舍些斋饭来。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="135">
+    <dialog id="1" msg="西天取经路漫漫，等功德圆满了，俺就回花果山看俺那群猴子猴孙。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="136">
+    <dialog id="1" msg="哼哼……哼……" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="137">
+    <dialog id="1" msg="师父和二师兄都被妖怪抓走了！" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="138">
+    <dialog id="1" msg="我不说话，不代表我不会说话。我不但会说话，还会唱歌，会舞剑……" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="139">
+    <dialog id="1" msg="此去多少多少里来着？总之是有妖怪就对了。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="140">
+    <dialog id="1" msg="这附近有一座观音院，可大啦，我经常去那玩儿。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="141">
+    <dialog id="1" msg="哈哈，这附近的情况，问小老儿我，你就问对人啦。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="6" imgid="" color="" data="25●兑换礼包" text="25●兑换礼包"/>
+    </dialog>
+  </talk>
+  <talk id="142">
+    <dialog id="1" msg="来瞧瞧，这可不仅仅只有武器而已。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="6" imgid="" color="" data="3#1●商店" text="商店"/>
+    </dialog>
+  </talk>
+  <talk id="143">
+    <dialog id="1" msg="五百年转瞬即逝，之于仙神不过弹指之间，然而……" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="144">
+    <dialog id="1" msg="你既然是来帮那猴子的，怎么还不去找他？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="好浓的醋味~哈哈，我开玩笑的，这就去了。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：得遇故人"/>
+    </dialog>
+  </talk>
+  <talk id="145">
+    <dialog id="1" msg="[HERO]！许久没见，你还是老样子，没见一点变化。&#xD;现下不及叙旧，你帮我照顾好猴子猴孙，俺老孙还要赶着去教训那些不开眼的天将。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="你去吧，我帮你照顾着。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：得遇故人"/>
+    </dialog>
+  </talk>
+  <talk id="146">
+    <dialog id="1" msg="这猴子一人惹祸，连累整座山遭殃。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="他虽被逐出师门，在我心中仍是师兄，我先看看有什么能帮忙的。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：探看情势"/>
+    </dialog>
+  </talk>
+  <talk id="147">
+    <dialog id="1" msg="情况如何？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="148">
+    <dialog id="1" msg="情况如何？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="四处都是天兵，没见到什么精怪和妖物。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：探看情势"/>
+    </dialog>
+  </talk>
+  <talk id="149">
+    <dialog id="1" msg="应该都是藏起来了，你往深处找找。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="让我去揪两只猴子出来问问状况。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：孤身深入"/>
+    </dialog>
+  </talk>
+  <talk id="150">
+    <dialog id="1" msg="吾乃是菩提祖师座下，觉字辈弟子，道名觉因，取通觉前尘，洞悉因果之意。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="除了妖怪尸首，没见什么旁的。"/>
+    </dialog>
+    <dialog id="2" msg="现在是信息时代，没有情报四处乱转是盲目的可耻的。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="3" text="You can you up ，no can no bb……"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：孤身深入"/>
+    </dialog>
+  </talk>
+  <talk id="151">
+    <dialog id="1" msg="呵呵，刚才有个老猕猴逃了过去，我看他根骨清奇目凝精光，明显是个有点来历的……猴子。这里的情况这里的妖怪最清楚，你快去问问他。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：受伤的老猕猴"/>
+    </dialog>
+  </talk>
+  <talk id="152">
+    <dialog id="1" msg="哎哟，哎哟，痛杀我也，有没有好心人敢来扶我，我可立字据，绝不讹人钱财……" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="老人家莫急，我来扶你。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：受伤的老猕猴"/>
+    </dialog>
+  </talk>
+</root>

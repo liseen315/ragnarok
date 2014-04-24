@@ -1,0 +1,330 @@
+<root>
+  <talk id="663">
+    <dialog id="1" msg="嗯，看来你抑制住了自己的天性。是什么让妖变得理性呢？如果所有的妖都能如此……（眸色一黯）。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="嘶————（竭力控制自己，吐纳中感到血液的流动变得缓慢了。）" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="既然你能控制自己，那我也就放心了。我手上有一物，名为河图洛书。你这天生地长的妖灵，可能不知自己有着吸收敌人残魂的能力，与这河图洛书相配合，可将敌人的残魂转化为八卦牌，~~~~等主策想好了剧情，我再告诉你怎么用~" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="这……好吧= =" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="5" text="下一步"/>
+    </dialog>
+    <dialog id="5" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：河图洛书"/>
+    </dialog>
+  </talk>
+  <talk id="664">
+    <dialog id="1" msg="没有八卦了，红毛狮精也不想给你了哼(#‵^′)。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：河图洛书"/>
+    </dialog>
+  </talk>
+  <talk id="665">
+    <dialog id="1" msg="八卦牌都没有还想合八卦吗0 0" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="pass，pass。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：八卦合一"/>
+    </dialog>
+  </talk>
+  <talk id="666">
+    <dialog id="1" msg="拍下一条=-=。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：八卦合一"/>
+    </dialog>
+  </talk>
+  <talk id="667">
+    <dialog id="1" msg="既已装备了，何不抓紧时间，前去试试威力。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：斗魂威能"/>
+    </dialog>
+  </talk>
+  <talk id="668">
+    <dialog id="1" msg="是否力量惊人？" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="我的斗志已经燃烧起来了。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：斗魂威能"/>
+    </dialog>
+  </talk>
+  <talk id="669">
+    <dialog id="1" msg="有一件东西，有人要我交予你。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="何物？" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="是一件法宝，虽粗陋了些，但威力尚可，关键时刻可为你解围，救你一命，千万妥善使用。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：获得法宝"/>
+    </dialog>
+  </talk>
+  <talk id="670">
+    <dialog id="1" msg="嗯，我已感觉到它的威力了。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="嗯。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：装备法宝"/>
+    </dialog>
+  </talk>
+  <talk id="671">
+    <dialog id="1" msg="你的力量已被自己充分激发和掌握，是时候去这天地间施展一番了！" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="若非是为了救师兄，我又怎会发现自己竟有这样的力量？这样一想，竟觉得有些可怕了……" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：破阵而出"/>
+    </dialog>
+  </talk>
+  <talk id="672">
+    <dialog id="1" msg="阵已破，为什么我反而觉得自己落入了什么更深的迷阵之中……" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：破阵而出"/>
+    </dialog>
+  </talk>
+  <talk id="673" isMotionScreen="1">
+    <dialog id="1" msg="阵已破除，你可以去救那孙悟空了。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="多谢菩萨多番指点，我这就去了。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="咻——（驾云而去）。" type="1" leftHeaderId="0" rightHeaderId="0" dir="0" talkName=".">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="5" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：前往花果山"/>
+    </dialog>
+    <dialog id="4" msg="逆天改命之灵已然出世，这一局，是缘是劫，是成是败，尽系于此一身了……" type="2" leftHeaderId="0" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="5" text="下一步"/>
+    </dialog>
+  </talk>
+  <talk id="674" isMotionScreen="1">
+    <dialog id="1" msg="[SEXY]，我可是比你快一步到咯~" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="师妹，你怎么还在？" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="当然是来帮你的，怎么，有意见？" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="不会，有师妹帮我，求之不得。" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="5" text="下一步"/>
+    </dialog>
+    <dialog id="5" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：前往花果山"/>
+    </dialog>
+  </talk>
+  <talk id="675">
+    <dialog id="1" msg="怎么，力有不逮了吗？那就让小爷我来助你一臂之力吧。" type="1" leftHeaderId="0" rightHeaderId="610416" dir="1" talkName="610416">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="676">
+    <dialog id="1" msg="终于到本三少出场的时间了！" type="1" leftHeaderId="0" rightHeaderId="610405" dir="1" talkName="610405">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="677">
+    <dialog id="1" msg="晴天一声巨响，老子闪亮登场！" type="1" leftHeaderId="0" rightHeaderId="610415" dir="1" talkName="610415">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="678">
+    <dialog id="1" msg="法宝在手，又有什么可惧怕的呢~" type="1" leftHeaderId="0" rightHeaderId="610422" dir="1" talkName="610422">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="679">
+    <dialog id="1" msg="嗯……想尝尝大姐姐幽冥白骨指的厉害吗，嗯哼哼哼……" type="1" leftHeaderId="0" rightHeaderId="610421" dir="1" talkName="610421">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="680">
+    <dialog id="1" msg="你要战，那便战，黄袍一甩，老子最拽！" type="1" leftHeaderId="0" rightHeaderId="610411" dir="1" talkName="610411">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="681">
+    <dialog id="1" msg="琵琶声起，妖孽尽亡。" type="1" leftHeaderId="0" rightHeaderId="610400" dir="1" talkName="610400">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="682">
+    <dialog id="1" msg="剑之所向，披靡！" type="1" leftHeaderId="0" rightHeaderId="610401" dir="1" talkName="610401">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="683">
+    <dialog id="1" msg="承蒙召唤！使命必达！" type="1" leftHeaderId="0" rightHeaderId="610402" dir="1" talkName="610402">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="684">
+    <dialog id="1" msg="宝伞天罗，华盖地网。" type="1" leftHeaderId="0" rightHeaderId="610403" dir="1" talkName="610403">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="685">
+    <dialog id="1" msg="让你们见识一下哪吒他爹的厉害！" type="1" leftHeaderId="0" rightHeaderId="610406" dir="1" talkName="610406">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="686">
+    <dialog id="1" msg="天下会有什么，比我的虎爪更利吗？" type="1" leftHeaderId="0" rightHeaderId="610407" dir="1" talkName="610407">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="687">
+    <dialog id="1" msg="熊出没请注意，倒车请注意，倒车……！" type="1" leftHeaderId="0" rightHeaderId="610409" dir="1" talkName="610409">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="688">
+    <dialog id="1" msg="诶？这么快就要战斗了吗，人家还没有睡足美容觉了啦……" type="1" leftHeaderId="0" rightHeaderId="610410" dir="1" talkName="610410">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="689">
+    <dialog id="1" msg="哈哈哈哈，又要打架了吗，让他们见识我的三昧真火！" type="1" leftHeaderId="0" rightHeaderId="610412" dir="1" talkName="610412">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="690">
+    <dialog id="1" msg="一剑在手，天地俱亡，吒！" type="1" leftHeaderId="0" rightHeaderId="610413" dir="1" talkName="610413">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="691">
+    <dialog id="1" msg="吾乃阎王，吾一指，彼岸即是深渊地狱！" type="1" leftHeaderId="0" rightHeaderId="610417" dir="1" talkName="610417">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="692">
+    <dialog id="1" msg="哈哈哈哈！" type="1" leftHeaderId="0" rightHeaderId="610419" dir="1" talkName="610419">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="693">
+    <dialog id="1" msg="嗯……谁敢造次。" type="1" leftHeaderId="0" rightHeaderId="610420" dir="1" talkName="610420">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="694">
+    <dialog id="1" msg="要我出战不是不行，哼……哼……肉……我要肉……" type="1" leftHeaderId="0" rightHeaderId="610424" dir="1" talkName="610424">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="695">
+    <dialog id="1" msg="拆迁小能手在此，锤锤锤！" type="1" leftHeaderId="0" rightHeaderId="610404" dir="1" talkName="610404">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="696">
+    <dialog id="1" msg="哼，哼哼……哼哼！哼，哼哼哼。" type="1" leftHeaderId="0" rightHeaderId="610408" dir="1" talkName="610408">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="697">
+    <dialog id="1" msg="哎呀，这等小事，也要劳我动手吗~？……~" type="1" leftHeaderId="0" rightHeaderId="610423" dir="1" talkName="610423">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="698">
+    <dialog id="1" msg="好烦，好烦，啊哒哒哒哒哒！" type="1" leftHeaderId="0" rightHeaderId="610414" dir="1" talkName="610414">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="699">
+    <dialog id="1" msg="让奴家助你一臂之力。" type="1" leftHeaderId="0" rightHeaderId="610998" dir="1" talkName="610998">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="700">
+    <dialog id="1" msg="测试加入或创建公会" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：测试创建或加入公会"/>
+    </dialog>
+  </talk>
+  <talk id="701">
+    <dialog id="1" msg="测试完毕" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：测试创建或加入公会"/>
+    </dialog>
+  </talk>
+  <talk id="702">
+    <dialog id="1" msg="测试竞技场战斗" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：测试竞技场"/>
+    </dialog>
+  </talk>
+  <talk id="703">
+    <dialog id="1" msg="测试完毕" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：测试竞技场"/>
+    </dialog>
+  </talk>
+  <talk id="704">
+    <dialog id="1" msg="请将人物等级提升至30级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="705">
+    <dialog id="1" msg="请将人物等级提升至31级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="706">
+    <dialog id="1" msg="请将人物等级提升至32级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="707">
+    <dialog id="1" msg="请将人物等级提升至33级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="708">
+    <dialog id="1" msg="请将人物等级提升至34级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="709">
+    <dialog id="1" msg="请将人物等级提升至35级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="710">
+    <dialog id="1" msg="请将人物等级提升至36级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="711">
+    <dialog id="1" msg="请将人物等级提升至37级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="712">
+    <dialog id="1" msg="请将人物等级提升至38级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="713">
+    <dialog id="1" msg="请将人物等级提升至39级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+</root>

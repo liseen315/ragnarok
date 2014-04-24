@@ -1,0 +1,9 @@
+<roles>
+  <role id="1" name="Assassin" type="1" uname="刺客" desc="美少女刺客..." icon="tmphead.png" halfbodyIcon="tmphalfbody.jpg" bodyIcon="tmpbody.jpg"/>
+  <role id="2" name="AI1" type="1" uname="怪物AI" desc="美少女怪物AI..." icon="" halfbodyIcon="" bodyIcon=""/>
+  <role id="3" name="Element1" type="2" uname="子弹1" desc="美少女子弹1..." icon="" halfbodyIcon="" bodyIcon=""/>
+  <role id="4" name="element89" type="2" uname="子弹2" desc="美少女子弹2..." icon="" halfbodyIcon="" bodyIcon=""/>
+  <role id="5" name="element_90" type="2" uname="子弹3" desc="美少女子弹3..." icon="" halfbodyIcon="" bodyIcon=""/>
+  <role id="6" name="Z0001" type="1" uname="小兵1" desc="小兵1..." icon="" halfbodyIcon="" bodyIcon=""/>
+  <role id="7" name="Z0001_E10" type="2" uname="小兵e1" desc="小兵e1..." icon="" halfbodyIcon="" bodyIcon=""/>
+</roles>

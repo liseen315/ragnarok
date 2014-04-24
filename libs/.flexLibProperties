@@ -46,6 +46,9 @@
     <classEntry path="consts.LoadingConst"/>
     <classEntry path="gameinterfaces.ILoading"/>
     <classEntry path="observer.Dic"/>
+    <classEntry path="loaders.InitLoader"/>
+    <classEntry path="consts.XmlConst"/>
+    <classEntry path="manager.XmlManager"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

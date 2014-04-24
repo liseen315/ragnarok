@@ -1,0 +1,264 @@
+<root>
+  <module name="CreateUserModule">
+    <res>
+      <resUrl path="uncache">swfs/uiAssets.swf</resUrl>
+      <resUrl path="uncache">moduleUI/swf/createUser.swf</resUrl>
+    </res>
+  </module>
+  <module name="UiModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/ui.swf</resUrl>
+      <resUrl path="uncache">swfs/uiAssets.swf</resUrl>
+      <resUrl path="uncache">swfs/UIGuide.swf</resUrl>
+      <resUrl path="uncache">swfs/BattleValue.swf</resUrl>
+      <resUrl path="cache">commonUI/UIAsset.swf</resUrl>
+    </res>
+  </module>
+  <module name="ChatModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/chat.swf</resUrl>
+      <resUrl path="uncache">swfs/arcadeChat.swf</resUrl>
+      <resUrl path="uncache">swfs/chatRoomMc.swf</resUrl>
+    </res>
+  </module>
+  <module name="GuideModule">
+    <res>
+      <resUrl path="cache">commonUI/UIAsset.swf</resUrl>
+      <resUrl path="uncache">moduleUI/swf/guide.swf</resUrl>
+      <resUrl path="uncache">swfs/guideMotion.swf</resUrl>
+      <resUrl path="uncache">swfs/fightLeadingGrid.swf</resUrl>
+      <resUrl path="uncache">swfs/fightGuideKeyMc.swf</resUrl>
+    </res>
+  </module>
+  <module name="TaskModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/task.swf</resUrl>
+      <resUrl path="uncache">swfs/JNextStep.swf</resUrl>
+      <resUrl path="uncache">swfs/openTownMc2.swf</resUrl>
+    </res>
+  </module>
+  <module name="TownModule">
+    <res>
+      <resUrl path="uncache">swfs/ble_common_Eupdate_1.swf</resUrl>
+      <resUrl path="uncache">swfs/common_Eupdate_2.swf</resUrl>
+      <resUrl path="uncache">swfs/HeroLevelUp.swf</resUrl>
+      <resUrl path="uncache">swfs/talkBubble.swf</resUrl>
+      <resUrl path="uncache">swfs/ClickMapMc.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityBlue.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityRed.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityGolden.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityPurple.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityOrange.swf</resUrl>
+    </res>
+  </module>
+  <module name="WorldModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/worldMap.swf</resUrl>
+    </res>
+  </module>
+  <module name="RoleModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/role.swf</resUrl>
+      <resUrl path="uncache">moduleUI/swf/wingPreview.swf</resUrl>
+    </res>
+  </module>
+  <module name="WingModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/wing.swf</resUrl>
+      <resUrl path="uncache">moduleUI/swf/wingPreview.swf</resUrl>
+      <resUrl path="uncache">swfs/wing.swf</resUrl>
+      <resUrl path="uncache">swfs/StrenthenSuccess.swf</resUrl>
+    </res>
+  </module>
+  <module name="GemsModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/gems.swf</resUrl>
+      <resUrl path="uncache">swfs/gemsAsset.swf</resUrl>
+    </res>
+  </module>
+  <module name="VipModule"/>
+  <module name="RankModule"/>
+  <module name="ActiveModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/active.swf</resUrl>
+    </res>
+  </module>
+  <module name="SmithyModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/smithy.swf</resUrl>
+      <resUrl path="uncache">swfs/FuseSuccess.swf</resUrl>
+      <resUrl path="uncache">swfs/LevelUpSuccess.swf</resUrl>
+      <resUrl path="uncache">swfs/StrenthenSuccess.swf</resUrl>
+      <resUrl path="uncache">swfs/skillsMc.swf</resUrl>
+    </res>
+  </module>
+  <module name="FightModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/ui.swf</resUrl>
+      <resUrl path="uncache">swfs/uiAssets.swf</resUrl>
+      <resUrl path="cache">commonUI/UIAsset.swf</resUrl>
+      <resUrl path="uncache">swfs/UIGuide.swf</resUrl>
+      <resUrl path="uncache">swfs/FightAssets.swf</resUrl>
+      <resUrl path="uncache">swfs/FightMosterBorn.swf</resUrl>
+      <resUrl path="uncache">swfs/FightSuccessEnd.swf</resUrl>
+      <resUrl path="uncache">moduleUI/swf/fight.swf</resUrl>
+    </res>
+  </module>
+  <module name="TeamModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/team.swf</resUrl>
+    </res>
+  </module>
+  <module name="FriendModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/friend.swf</resUrl>
+    </res>
+  </module>
+  <module name="LanderModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/lander.swf</resUrl>
+    </res>
+  </module>
+  <module name="ActCumLogInModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/cumLogIn.swf</resUrl>
+    </res>
+  </module>
+  <module name="CopyModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/copy.swf</resUrl>
+      <resUrl path="uncache">moduleUI/swf/fightLose.swf</resUrl>
+      <resUrl path="uncache">moduleUI/swf/lottery.swf</resUrl>
+      <resUrl path="uncache">moduleUI/swf/copySuccess.swf</resUrl>
+      <resUrl path="uncache">swfs/CopyAsset.swf</resUrl>
+      <resUrl path="uncache">swfs/lotteryQualityBlue.swf</resUrl>
+      <resUrl path="uncache">swfs/lotteryQualityGolden.swf</resUrl>
+      <resUrl path="uncache">swfs/lotteryQualityOrange.swf</resUrl>
+      <resUrl path="uncache">swfs/lotteryQualityPurple.swf</resUrl>
+      <resUrl path="uncache">swfs/lotteryQualityRed.swf</resUrl>
+      <resUrl path="uncache">swfs/fightSuccMovie.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityBlue.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityRed.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityGolden.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityPurple.swf</resUrl>
+      <resUrl path="uncache">swfs/ItemQualityOrange.swf</resUrl>
+    </res>
+  </module>
+  <module name="BagsModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/bag.swf</resUrl>
+    </res>
+  </module>
+  <module name="ShopModule"/>
+  <module name="AchieveModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/achieve.swf</resUrl>
+      <resUrl path="uncache">swfs/achieveNew.swf</resUrl>
+    </res>
+  </module>
+  <module name="TalismanModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/talisman.swf</resUrl>
+      <resUrl path="uncache">swfs/StrenthenSuccess.swf</resUrl>
+    </res>
+  </module>
+  <module name="SkillModule">
+    <res>
+      <resUrl path="uncache">swfs/skillsMc.swf</resUrl>
+      <resUrl path="uncache">moduleUI/swf/skill.swf</resUrl>
+    </res>
+  </module>
+  <module name="PayModule"/>
+  <module name="MailModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/mail.swf</resUrl>
+    </res>
+  </module>
+  <module name="PkModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/pk.swf</resUrl>
+    </res>
+  </module>
+  <module name="DemonFinalModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/demonFinal.swf</resUrl>
+      <resUrl path="uncache">swfs/astrolabeBtnMc.swf</resUrl>
+      <resUrl path="uncache">swfs/up_success.swf</resUrl>
+      <resUrl path="uncache">swfs/demonArrow.swf</resUrl>
+      <resUrl path="uncache">swfs/demonGet.swf</resUrl>
+    </res>
+  </module>
+  <module name="DailyTaskModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/dailyTask.swf</resUrl>
+      <resUrl path="uncache">swfs/dailyTask.swf</resUrl>
+      <resUrl path="uncache">swfs/dailyTaskMc.swf</resUrl>
+      <resUrl path="uncache">swfs/FightAssets.swf</resUrl>
+    </res>
+  </module>
+  <module name="WorldBossModule"/>
+  <module name="XFightModule"/>
+  <module name="GuildModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/guild.swf</resUrl>
+    </res>
+  </module>
+  <module name="ArenaModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/arena.swf</resUrl>
+    </res>
+  </module>
+  <module name="GuildLinkModule"/>
+  <module name="AntiaddictModule"/>
+  <module name="FirstRechargeModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/firstRecharge.swf</resUrl>
+    </res>
+  </module>
+  <module name="OpenServerModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/openServer.swf</resUrl>
+    </res>
+  </module>
+  <module name="MammonModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/mammon.swf</resUrl>
+    </res>
+  </module>
+  <module name="RechargeBackModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/rechargeBack.swf</resUrl>
+    </res>
+  </module>
+  <module name="MoneyTreeModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/moneyTree.swf</resUrl>
+      <resUrl path="uncache">swfs/moneyTree.swf</resUrl>
+      <resUrl path="uncache">swfs/moneyTreeShake.swf</resUrl>
+    </res>
+  </module>
+  <module name="SignModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/sign.swf</resUrl>
+    </res>
+  </module>
+  <module name="CumRechargeModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/cumRecharge.swf</resUrl>
+    </res>
+  </module>
+  <module name="OnlineRewardModule"/>
+  <module name="OpenSignModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/openSign.swf</resUrl>
+      <resUrl path="uncache">swfs/openSign_big.swf</resUrl>
+      <resUrl path="uncache">swfs/openSign_sml.swf</resUrl>
+      <resUrl path="uncache">swfs/openSign_mid.swf</resUrl>
+    </res>
+  </module>
+  <module name="FP_RewardModule">
+    <res>
+      <resUrl path="uncache">moduleUI/swf/fpReward.swf</resUrl>
+    </res>
+  </module>
+</root>

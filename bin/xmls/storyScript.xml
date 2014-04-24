@@ -1,0 +1,318 @@
+<root>
+  <script mapId="XSYD-1">
+    <node>
+      <condition type="1" mapId="XSYD-1"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="650"/>
+      </step>
+    </node>
+    <node>
+      <condition type="2" mapId="XSYD-1"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="838"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="XSYD-2">
+    <node>
+      <condition type="2" mapId="XSYD-2"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="826"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="WSYD">
+    <res>
+      <resUrl path="cache" fileName="stories/WuKongDPGuide{0}.swf" mcName="WuKongDPGuide{0}"/>
+      <resUrl path="cache" fileName="stories/DPEffectMcFront.swf" mcName="DPEffectMcFront"/>
+      <resUrl path="cache" fileName="stories/DPEffectMcMiddle.swf" mcName="DPEffectMcMiddle"/>
+      <resUrl path="cache" fileName="stories/DPEffectMcBack.swf" mcName="DPEffectMcBack"/>
+    </res>
+    <node>
+      <condition type="1" mapId="WSYD"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="791"/>
+        <terminal type="3" parallel="0" second="1"/>
+        <terminal type="1" parallel="0" dataString="player|700|480"/>
+        <terminal type="6" parallel="0" dialogId="792"/>
+        <terminal type="11" parallel="0" visible="0" dataString="player"/>
+        <terminal type="12" parallel="1" frame="180" xpPerFrame="57"/>
+        <terminal type="13" parallel="1" frame="150" fromX="698.5" fromY="416" toX="588" toY="628" effectName="ui.FlyBallYellowMc"/>
+        <terminal type="8" parallel="1" fileName="stories/DPEffectMcBack.swf" mcType="1" x="698.5" y="486" actorId=""/>
+        <terminal type="8" parallel="1" fileName="stories/WuKongDPGuide{0}.swf" mcType="1" x="698.5" y="486" actorId=""/>
+        <terminal type="8" parallel="1" fileName="stories/DPEffectMcMiddle.swf" mcType="1" x="698.5" y="486" actorId=""/>
+        <terminal type="8" parallel="0" fileName="stories/DPEffectMcFront.swf" mcType="1" x="698.5" y="486" actorId=""/>
+        <terminal type="11" parallel="0" visible="1" dataString="player"/>
+        <terminal type="9" parallel="0" second="2"/>
+        <terminal type="6" parallel="0" dialogId="831"/>
+      </step>
+    </node>
+    <node>
+      <condition type="2" mapId="WSYD"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="793"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="YHYD">
+    <res>
+      <resUrl path="cache" fileName="stories/WuKongDPGuide{0}.swf" mcName="WuKongDPGuide{0}"/>
+      <resUrl path="cache" fileName="stories/DPEffectMcFront.swf" mcName="DPEffectMcFront"/>
+      <resUrl path="cache" fileName="stories/DPEffectMcMiddle.swf" mcName="DPEffectMcMiddle"/>
+      <resUrl path="cache" fileName="stories/DPEffectMcBack.swf" mcName="DPEffectMcBack"/>
+    </res>
+    <node>
+      <condition type="1" mapId="YHYD"/>
+      <step>
+        <terminal type="4" parallel="0" dataString="1|610002|3|1|1088|480|3"/>
+        <terminal type="1" parallel="0" dataString="player|700|480"/>
+        <terminal type="3" parallel="" second="0.5"/>
+        <terminal type="6" parallel="0" dialogId="794"/>
+        <terminal type="3" parallel="1" second="0.5"/>
+        <terminal type="11" parallel="0" visible="0" dataString="player"/>
+        <terminal type="10" parallel="1" frame="150" mpPerFrame="2"/>
+        <terminal type="13" parallel="1" frame="150" fromX="687" fromY="410" toX="190" toY="68" effectName="ui.FlyBallBlueMc"/>
+        <terminal type="8" parallel="1" fileName="stories/DPEffectMcBack.swf" mcType="1" x="687" y="480" actorId=""/>
+        <terminal type="8" parallel="1" fileName="stories/WuKongDPGuide{0}.swf" mcType="1" x="687" y="480" actorId=""/>
+        <terminal type="8" parallel="1" fileName="stories/DPEffectMcMiddle.swf" mcType="1" x="687" y="480" actorId=""/>
+        <terminal type="8" parallel="0" fileName="stories/DPEffectMcFront.swf" mcType="1" x="687" y="480" actorId=""/>
+        <terminal type="11" parallel="0" visible="1" dataString="player"/>
+        <terminal type="9" parallel="1" second="2"/>
+        <terminal type="3" parallel="0" second="1"/>
+        <terminal type="5" parallel="0" dataString="1"/>
+        <terminal type="6" parallel="0" dialogId="832"/>
+        <terminal type="3" parallel="0" second="1"/>
+      </step>
+    </node>
+    <node>
+      <condition type="3" section="1" wave="4"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="796"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="HGS-3">
+    <node>
+      <condition type="2" mapId="HGS-3"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="188"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="HGS-4">
+    <node>
+      <condition type="2" mapId="HGS-4"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="781"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="HGS-9">
+    <node>
+      <condition type="2" mapId="HGS-9"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="767"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="HGS-12">
+    <node>
+      <condition type="2" mapId="HGS-12"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="193"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="DF-5">
+    <node>
+      <condition type="2" mapId="DF=5"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="422"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="DF-8">
+    <node>
+      <condition type="2" mapId="DF-8"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="426"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="TG-5">
+    <node>
+      <condition type="2" mapId="TG-5"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="429"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="TG-7">
+    <node>
+      <condition type="2" mapId="TG-7"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="768"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="TG-12">
+    <node>
+      <condition type="2" mapId="TG-12"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="431"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="TG-18">
+    <node>
+      <condition type="2" mapId="TG-18"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="434"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="TG-20">
+    <node>
+      <condition type="2" mapId="TG-20"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="770"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="SCL-1">
+    <node>
+      <condition type="2" mapId="SCL-1"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="436"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="SCL-2">
+    <node>
+      <condition type="2" mapId="SCL-2"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="437"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="SCL-3">
+    <node>
+      <condition type="2" mapId="SCL-3"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="438"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="GYS-3">
+    <node>
+      <condition type="2" mapId="GYS-3"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="543"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="GYS-8">
+    <node>
+      <condition type="2" mapId="GYS-8"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="439"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="GLZ-9">
+    <node>
+      <condition type="2" mapId="GLZ-9"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="442"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="GLZ-12">
+    <node>
+      <condition type="2" mapId="GLZ-12"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="443"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="HFL-8">
+    <node>
+      <condition type="2" mapId="HFL-8"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="448"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="LSH-5">
+    <node>
+      <condition type="2" mapId="LSH-5"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="450"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="LSH-8">
+    <node>
+      <condition type="2" mapId="LSH-8"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="453"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="BGD-8">
+    <node>
+      <condition type="2" mapId="BGD-8"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="464"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="BYD-2">
+    <node>
+      <condition type="2" mapId="BYD-2"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="465"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="BYD-6">
+    <node>
+      <condition type="2" mapId="BYD-6"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="466"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="LHD-7">
+    <node>
+      <condition type="2" mapId="LHD-7"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="468"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="LHD-12">
+    <node>
+      <condition type="2" mapId="LHD-12"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="470"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="LHD-14">
+    <node>
+      <condition type="2" mapId="LHD-14"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="472"/>
+      </step>
+    </node>
+  </script>
+  <script mapId="LHD-16">
+    <node>
+      <condition type="2" mapId="LHD-16"/>
+      <step>
+        <terminal type="6" parallel="0" dialogId="474"/>
+      </step>
+    </node>
+  </script>
+</root>

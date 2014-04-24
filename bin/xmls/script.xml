@@ -1,0 +1,10 @@
+<root>
+  <scr uid="1001" id="1" type="2" content="10"/>
+  <scr uid="1002" id="2" type="2" content="10001_x_y"/>
+  <scr uid="1003" id="3" type="2" content="x_y"/>
+  <scr uid="1004" id="4" type="2" content="section_wave"/>
+  <scr uid="1005" id="5" type="2">
+    <creat type="1" id="10004" x="300" y="400" direct="1" scriptid="1003"/>
+    <creat type="1" id="10005" x="500" y="500" direct="-1" scriptid=""/>
+  </scr>
+</root>

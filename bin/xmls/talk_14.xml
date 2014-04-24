@@ -1,0 +1,155 @@
+<root>
+  <talk id="714">
+    <dialog id="1" msg="请将人物等级提升至40级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="715">
+    <dialog id="1" msg="请将人物等级提升至41级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="716">
+    <dialog id="1" msg="请将人物等级提升至42级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="717">
+    <dialog id="1" msg="请将人物等级提升至43级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="718">
+    <dialog id="1" msg="请将人物等级提升至44级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="719">
+    <dialog id="1" msg="请将人物等级提升至45级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="720">
+    <dialog id="1" msg="请将人物等级提升至46级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="721">
+    <dialog id="1" msg="请将人物等级提升至47级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="722">
+    <dialog id="1" msg="请将人物等级提升至48级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="723">
+    <dialog id="1" msg="请将人物等级提升至49级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="724">
+    <dialog id="1" msg="请将人物等级提升至50级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="725">
+    <dialog id="1" msg="请将人物等级提升至51级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="726">
+    <dialog id="1" msg="请将人物等级提升至52级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="727">
+    <dialog id="1" msg="请将人物等级提升至53级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="728">
+    <dialog id="1" msg="请将人物等级提升至54级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="729">
+    <dialog id="1" msg="请将人物等级提升至55级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="730">
+    <dialog id="1" msg="请将人物等级提升至56级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="731">
+    <dialog id="1" msg="请将人物等级提升至57级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="732">
+    <dialog id="1" msg="请将人物等级提升至58级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="733">
+    <dialog id="1" msg="请将人物等级提升至59级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="734">
+    <dialog id="1" msg="请将人物等级提升至60级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="735">
+    <dialog id="1" msg="请将人物等级提升至61级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="736">
+    <dialog id="1" msg="请将人物等级提升至62级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="737">
+    <dialog id="1" msg="请将人物等级提升至63级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="738">
+    <dialog id="1" msg="请将人物等级提升至64级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="739">
+    <dialog id="1" msg="请将人物等级提升至65级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="740">
+    <dialog id="1" msg="请将人物等级提升至66级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="741">
+    <dialog id="1" msg="请将人物等级提升至67级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="742">
+    <dialog id="1" msg="请将人物等级提升至68级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="743">
+    <dialog id="1" msg="请将人物等级提升至69级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="744">
+    <dialog id="1" msg="请将人物等级提升至70级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="745">
+    <dialog id="1" msg="请将人物等级提升至71级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="746">
+    <dialog id="1" msg="请将人物等级提升至72级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="747">
+    <dialog id="1" msg="请将人物等级提升至73级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="748">
+    <dialog id="1" msg="请将人物等级提升至74级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="749">
+    <dialog id="1" msg="请将人物等级提升至75级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="750">
+    <dialog id="1" msg="请将人物等级提升至76级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="751">
+    <dialog id="1" msg="请将人物等级提升至77级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="752">
+    <dialog id="1" msg="请将人物等级提升至78级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="753">
+    <dialog id="1" msg="请将人物等级提升至79级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="754">
+    <dialog id="1" msg="请将人物等级提升至80级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="755">
+    <dialog id="1" msg="请将人物等级提升至81级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="756">
+    <dialog id="1" msg="请将人物等级提升至82级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="757">
+    <dialog id="1" msg="请将人物等级提升至83级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="758">
+    <dialog id="1" msg="请将人物等级提升至84级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="759">
+    <dialog id="1" msg="请将人物等级提升至85级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="760">
+    <dialog id="1" msg="请将人物等级提升至86级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="761">
+    <dialog id="1" msg="请将人物等级提升至87级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="762">
+    <dialog id="1" msg="请将人物等级提升至88级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="763">
+    <dialog id="1" msg="请将人物等级提升至89级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="764">
+    <dialog id="1" msg="请将人物等级提升至90级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+</root>

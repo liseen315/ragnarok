@@ -1,0 +1,161 @@
+<guide>
+  <forceFun/>
+  <leadFun>
+    <step id="61" nextId="62" nextLeadId="63" type="0" name="FightSystem" subFlag="1"/>
+    <step id="62" nextId="63" type="3" name="CopyRewardsWindow" subFlag="1" saveId="61"/>
+    <step id="63" nextId="64" nextLeadId="68" type="1" name="sceneTask101" subFlag="2" jump="68~63"/>
+    <step id="64" nextId="65" type="0" name="dialogLink101" subFlag="101"/>
+    <step id="65" nextId="66" type="0" name="dialogLink101" subFlag="101"/>
+    <step id="66" nextId="68" type="2" name="TaskProxy" subFlag="101" saveId="63"/>
+    <step id="68" nextId="69" nextLeadId="72" type="1" name="sceneTask101" subFlag="1" jump="72~68"/>
+    <step id="69" nextId="70" type="0" name="dialogLink101" subFlag="101"/>
+    <step id="70" nextId="71" type="0" name="dialogLink101" subFlag="101"/>
+    <step id="71" nextId="72" type="2" name="TaskProxy" subFlag="101" saveId="68"/>
+    <step id="72" nextId="73" nextLeadId="77" type="1" name="sceneTask102" subFlag="2" jump="77~72"/>
+    <step id="73" nextId="74" type="0" name="dialogLink102" subFlag="102"/>
+    <step id="74" nextId="76" type="0" name="dialogLink102" subFlag="102"/>
+    <step id="76" nextId="77" type="2" name="TaskProxy" subFlag="102" saveId="72"/>
+    <step id="77" nextId="78" nextLeadId="81" type="1" name="sceneTask102" subFlag="3" jump="81~77"/>
+    <step id="78" nextId="79" type="0" name="CopyItemRender_102" subFlag="1"/>
+    <step id="79" nextId="80" type="0" name="FightSystem" subFlag="1"/>
+    <step id="80" nextId="81" type="2" name="CopyRewardsWindow" subFlag="1" saveId="77"/>
+    <step id="81" nextId="82" nextLeadId="85" type="1" name="sceneTask102" subFlag="1" jump="85~81"/>
+    <step id="82" nextId="83" type="0" name="dialogLink102" subFlag="102"/>
+    <step id="83" nextId="84" type="0" name="dialogLink102" subFlag="102"/>
+    <step id="84" nextId="85" type="2" name="TaskProxy" subFlag="102" saveId="81"/>
+    <step id="85" nextId="86" nextLeadId="89" type="1" name="sceneTask103" subFlag="2" jump="89~85"/>
+    <step id="86" nextId="87" type="0" name="dialogLink103" subFlag="103"/>
+    <step id="87" nextId="88" type="0" name="dialogLink103" subFlag="103"/>
+    <step id="88" nextId="89" type="2" name="TaskProxy" subFlag="103" saveId="85"/>
+    <step id="89" nextId="90" nextLeadId="93" type="1" name="sceneTask103" subFlag="3" jump="93~89"/>
+    <step id="90" nextId="91" type="0" name="CopyItemRender_103" subFlag="1"/>
+    <step id="91" nextId="92" type="0" name="FightSystem" subFlag="1"/>
+    <step id="92" nextId="93" type="2" name="CopyRewardsWindow" subFlag="1" saveId="89"/>
+    <step id="93" nextId="94" nextLeadId="97" type="1" name="sceneTask103" subFlag="1" jump="97~93"/>
+    <step id="94" nextId="95" type="0" name="dialogLink103" subFlag="103"/>
+    <step id="95" nextId="96" type="0" name="dialogLink103" subFlag="103"/>
+    <step id="96" nextId="97" type="2" name="TaskProxy" subFlag="103" saveId="93"/>
+    <step id="97" nextId="98" nextLeadId="105" type="1" name="sceneTask104" subFlag="2" jump="105~97"/>
+    <step id="98" nextId="99" type="0" name="dialogLink104" subFlag="104"/>
+    <step id="99" nextId="100" type="0" name="dialogLink104" subFlag="104"/>
+    <step id="100" nextId="105" type="2" name="TaskProxy" subFlag="104" saveId="97"/>
+    <step id="105" nextId="106" nextLeadId="109" type="1" name="sceneTask104" subFlag="1" jump="109~105"/>
+    <step id="106" nextId="107" type="0" name="dialogLink104" subFlag="104"/>
+    <step id="107" nextId="108" type="0" name="dialogLink104" subFlag="104"/>
+    <step id="108" nextId="109" type="2" name="TaskProxy" subFlag="104" saveId="105"/>
+    <step id="109" nextId="110" nextLeadId="137" type="1" name="sceneTask105" subFlag="2" jump="117~109" isLockToNext="1" isLock="1"/>
+    <step id="110" nextId="111" type="0" name="dialogLink105" subFlag="105" isLock="1"/>
+    <step id="111" nextId="112" type="0" name="dialogLink105" subFlag="105" isLock="1" isLockToNext="1"/>
+    <step id="112" nextId="137" type="2" name="TaskProxy" subFlag="105" saveId="109"/>
+    <step id="137" nextId="138" nextLeadId="117" type="1" name="UIMenu" subFlag="23" taskConditionGroup="105~1" jump="117~137"/>
+    <step id="138" nextId="139" type="0" name="SkillPannel" subFlag="2" isLockToNext="1"/>
+    <step id="139" nextId="140" type="0" name="SkillProxy" subFlag="1"/>
+    <step id="140" nextId="117" type="2" name="SkillPannel" subFlag="1" saveId="137"/>
+    <step id="117" nextId="118" nextLeadId="121" type="1" name="sceneTask105" subFlag="1" jump="121~117"/>
+    <step id="118" nextId="119" type="0" name="dialogLink105" subFlag="105"/>
+    <step id="119" nextId="120" type="0" name="dialogLink105" subFlag="105"/>
+    <step id="120" nextId="121" type="2" name="TaskProxy" subFlag="105" saveId="117"/>
+    <step id="121" nextId="122" nextLeadId="113" type="1" name="sceneTask106" subFlag="2" jump="113~121"/>
+    <step id="122" nextId="123" type="0" name="dialogLink106" subFlag="106"/>
+    <step id="123" nextId="124" type="0" name="dialogLink106" subFlag="106"/>
+    <step id="124" nextId="113" type="2" name="TaskProxy" subFlag="106" saveId="121"/>
+    <step id="113" nextId="114" nextLeadId="129" type="1" name="sceneTask106" subFlag="3" jump="129~113"/>
+    <step id="114" nextId="115" type="0" name="CopyItemRender_104" subFlag="1"/>
+    <step id="115" nextId="116" type="0" name="FightSystem" subFlag="1"/>
+    <step id="116" nextId="129" type="2" name="CopyRewardsWindow" subFlag="1" saveId="113"/>
+    <step id="129" nextId="130" nextLeadId="133" type="1" name="sceneTask106" subFlag="1" jump="133~129"/>
+    <step id="130" nextId="131" type="0" name="dialogLink106" subFlag="106"/>
+    <step id="131" nextId="132" type="0" name="dialogLink106" subFlag="106"/>
+    <step id="132" nextId="133" type="2" name="TaskProxy" subFlag="106" saveId="129"/>
+    <step id="133" nextId="134" nextLeadId="125" type="1" name="sceneTask107" subFlag="2" jump="125~133"/>
+    <step id="134" nextId="135" type="0" name="dialogLink107" subFlag="107"/>
+    <step id="135" nextId="136" type="0" name="dialogLink107" subFlag="107"/>
+    <step id="136" nextId="125" type="2" name="TaskProxy" subFlag="107" saveId="133"/>
+    <step id="125" nextId="126" nextLeadId="141" type="1" name="sceneTask107" subFlag="3" jump="141~125"/>
+    <step id="126" nextId="127" type="0" name="CopyItemRender_105" subFlag="1"/>
+    <step id="127" nextId="128" type="0" name="FightSystem" subFlag="1"/>
+    <step id="128" nextId="141" type="2" name="CopyRewardsWindow" subFlag="1" saveId="125"/>
+    <step id="141" nextId="142" nextLeadId="145" type="1" name="sceneTask107" subFlag="1" jump="145~141"/>
+    <step id="142" nextId="143" type="0" name="dialogLink107" subFlag="107"/>
+    <step id="143" nextId="144" type="0" name="dialogLink107" subFlag="107"/>
+    <step id="144" nextId="145" type="2" name="TaskProxy" subFlag="107" saveId="141"/>
+    <step id="145" nextId="146" nextLeadId="149" type="1" name="sceneTask108" subFlag="2" jump="149~145"/>
+    <step id="146" nextId="147" type="0" name="dialogLink108" subFlag="108"/>
+    <step id="147" nextId="148" type="0" name="dialogLink108" subFlag="108"/>
+    <step id="148" nextId="149" type="2" name="TaskProxy" subFlag="108" saveId="145"/>
+    <step id="149" nextId="150" nextLeadId="153" type="1" name="sceneTask108" subFlag="3" jump="153~149"/>
+    <step id="150" nextId="151" type="0" name="CopyItemRender_106" subFlag="1"/>
+    <step id="151" nextId="152" type="0" name="FightSystem" subFlag="1"/>
+    <step id="152" nextId="153" type="2" name="CopyRewardsWindow" subFlag="1" saveId="149"/>
+    <step id="153" nextId="154" nextLeadId="157" type="1" name="sceneTask108" subFlag="1" jump="157~153"/>
+    <step id="154" nextId="155" type="0" name="dialogLink108" subFlag="108"/>
+    <step id="155" nextId="156" type="0" name="dialogLink108" subFlag="108"/>
+    <step id="156" nextId="157" type="2" name="TaskProxy" subFlag="108" saveId="153"/>
+    <step id="157" nextId="158" nextLeadId="161" type="1" name="sceneTask109" subFlag="2" jump="161~157"/>
+    <step id="158" nextId="159" type="0" name="dialogLink109" subFlag="109"/>
+    <step id="159" nextId="160" type="0" name="dialogLink109" subFlag="109"/>
+    <step id="160" nextId="161" type="2" name="TaskProxy" subFlag="109" saveId="157"/>
+    <step id="161" nextId="162" nextLeadId="165" type="1" name="sceneTask109" subFlag="3" jump="165~161"/>
+    <step id="162" nextId="163" type="0" name="CopyItemRender_107" subFlag="1"/>
+    <step id="163" nextId="164" type="0" name="FightSystem" subFlag="1"/>
+    <step id="164" nextId="165" type="2" name="CopyRewardsWindow" subFlag="1" saveId="161"/>
+    <step id="165" nextId="166" nextLeadId="169" type="1" name="sceneTask109" subFlag="1" jump="169~165"/>
+    <step id="166" nextId="167" type="0" name="dialogLink109" subFlag="109"/>
+    <step id="167" nextId="168" type="0" name="dialogLink109" subFlag="109"/>
+    <step id="168" nextId="169" type="2" name="TaskProxy" subFlag="109" saveId="165"/>
+    <step id="169" nextId="170" nextLeadId="173" type="1" name="sceneTask110" subFlag="2" jump="173~169"/>
+    <step id="170" nextId="171" type="0" name="dialogLink110" subFlag="110"/>
+    <step id="171" nextId="172" type="0" name="dialogLink110" subFlag="110"/>
+    <step id="172" nextId="173" type="2" name="TaskProxy" subFlag="110" saveId="169"/>
+    <step id="173" nextId="174" nextLeadId="300" type="1" name="sceneTask110" subFlag="1" jump="300~173"/>
+    <step id="174" nextId="175" type="0" name="dialogLink110" subFlag="110"/>
+    <step id="175" nextId="176" type="0" name="dialogLink110" subFlag="110"/>
+    <step id="176" nextId="300" type="2" name="TaskProxy" subFlag="110" saveId="173"/>
+    <step id="300" nextId="301" nextLeadId="700" type="1" name="UIMenu" subFlag="36" condition="36" isLockToNext="1" taskConditionGroup="10071~4" jump="700~300"/>
+    <step id="301" nextId="302" type="0" name="WingPannel" subFlag="1" isLockToNext="1" jump="700~300"/>
+    <step id="302" nextId="333" type="0" name="WingProxy" subFlag="1"/>
+    <step id="333" nextId="700" type="2" name="WingPannel" subFlag="10" saveId="300"/>
+    <step id="700" nextId="701" nextLeadId="303" type="1" name="sceneTask10151" subFlag="2" taskState="2" condition="10151" isLockToNext="1" isLock="1" jump="303~700"/>
+    <step id="701" nextId="702" type="0" name="dialogLink10151" subFlag="10151" isLock="1"/>
+    <step id="702" nextId="703" type="0" name="dialogLink10151" subFlag="10151" isLock="1" isLockToNext="1"/>
+    <step id="703" nextId="303" type="2" name="TaskProxy" subFlag="10151" saveId="700"/>
+    <step id="303" nextId="304" nextLeadId="306" type="1" name="UIMenu" subFlag="36" taskState="3" condition="10151" isLockToNext="1" jump="1~309"/>
+    <step id="304" nextId="305" type="0" name="WingPannel" subFlag="2" taskState="3" condition="10151" isLockToNext="1" jump="310~306"/>
+    <step id="305" nextId="307" type="2" name="WingProxy" subFlag="2" taskState="3" condition="10151" saveId="303"/>
+    <step id="306" nextId="307" nextLeadId="309" type="1" name="UIMenu" subFlag="36" taskState="3" condition="10151" isLockToNext="1" jump="1~309"/>
+    <step id="307" nextId="308" type="0" name="WingPannel" subFlag="2" taskState="3" condition="10151" isLockToNext="1" jump="310~306"/>
+    <step id="308" nextId="310" type="2" name="WingProxy" subFlag="2" taskState="3" condition="10151" saveId="306"/>
+    <step id="309" nextId="310" nextLeadId="1" type="1" name="UIMenu" subFlag="36" taskState="3" condition="10151" isLockToNext="1" jump="1~309"/>
+    <step id="310" nextId="311" type="0" name="WingPannel" subFlag="3" taskState="3" condition="10151" isLockToNext="1" jump="1~309"/>
+    <step id="311" nextId="312" type="0" name="WingProxy" subFlag="3" taskState="3" condition="10151"/>
+    <step id="312" nextId="1" type="2" name="WingPannel" subFlag="10" saveId="309"/>
+    <step id="1" nextId="2" nextLeadId="604" type="1" name="UIMenu" subFlag="1" taskState="3" condition="20031" jump="604~1"/>
+    <step id="2" nextId="3" type="0" name="SmithyWindow" subFlag="1"/>
+    <step id="3" nextId="604" type="2" name="SmithyWindow" subFlag="2" saveId="1"/>
+    <step id="604" nextId="605" nextLeadId="31" type="1" name="UIGiftMenu" subFlag="17" condition="16" taskConditionGroup="20032~1" jump="31~604"/>
+    <step id="605" nextId="606" type="0" name="WorldBossWindow" subFlag="16"/>
+    <step id="606" nextId="607" type="0" name="WorldBossWindow" subFlag="101" isLockToNext="1"/>
+    <step id="607" nextId="31" type="2" name="MoneyTreePanel" subFlag="1" saveId="604"/>
+    <step id="31" nextId="32" nextLeadId="37" type="1" name="UIMenu" subFlag="2" condition="2" taskConditionGroup="20041~1" jump="400~37"/>
+    <step id="32" nextId="33" type="0" name="GemsPannel" subFlag="1"/>
+    <step id="33" nextId="34" type="2" name="GemsPannel" subFlag="2" saveId="31"/>
+    <step id="37" nextId="34" nextLeadId="400" type="1" name="UIMenu" subFlag="2" condition="2" taskConditionGroup="20041~1" jump="400~37"/>
+    <step id="34" nextId="35" type="0" name="GemsPannel" subFlag="3"/>
+    <step id="35" nextId="36" type="0" name="SmithyWindow" subFlag="3"/>
+    <step id="36" nextId="400" type="2" name="SmithyWindow" subFlag="4" saveId="37"/>
+    <step id="400" nextId="401" nextLeadId="403" type="1" name="UIMenu" subFlag="6" isLockToNext="1" taskConditionGroup="2012~1" extraConditonFunc="checkDemonCondition" jump="999~999"/>
+    <step id="401" nextId="402" type="0" name="DemonFinalPannel" subFlag="1" jump="404~400" isLockToNext="1"/>
+    <step id="402" nextId="404" type="2" name="DemonData" subFlag="1" saveId="400" isLockToNext="1"/>
+    <step id="403" nextId="404" nextLeadId="999" type="1" name="UIMenu" subFlag="6" isLockToNext="1" taskConditionGroup="2012~1" extraConditonFunc="checkDemonCondition" jump="999~999"/>
+    <step id="404" nextId="405" type="0" name="DemonFinalPannel" subFlag="2" jump="999~999" isLockToNext="1"/>
+    <step id="405" nextId="999" type="2" name="DemonFinalProxy" subFlag="2" saveId="999"/>
+    <step id="600" nextId="601" nextLeadId="999" type="1" name="UIGiftMenu" subFlag="17" condition="17"/>
+    <step id="601" nextId="602" type="0" name="WorldBossWindow" subFlag="17"/>
+    <step id="602" nextId="603" type="0" name="WorldBossWindow" subFlag="101" isLockToNext="1"/>
+    <step id="603" nextId="999" type="2" name="MammonPanel" subFlag="1" saveId="999"/>
+    <step id="500" nextId="501" nextLeadId="400" type="1" name="UIMenu" subFlag="10" isLockToNext="1"/>
+    <step id="501" nextId="502" type="0" name="BagsPannel" subFlag="2" jump="400~500"/>
+    <step id="502" nextId="400" type="2" name="HeroTalilsmans" subFlag="2" saveId="500"/>
+    <step id="999" nextId="" nextLeadId="999" type="1" name="" subFlag="1"/>
+  </leadFun>
+</guide>

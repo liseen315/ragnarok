@@ -1,0 +1,402 @@
+<root>
+  <talk id="765">
+    <dialog id="1" msg="请将人物等级提升至91级。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="766">
+    <dialog id="1" msg="你这天将，怜悯之心尚不如妖灵，还不速速回返天庭，莫要玷污了我师兄这花果山的一片净土！" type="1" leftHeaderId="[HERO]" rightHeaderId="610401" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="可恶哇哇哇哇！！" type="1" leftHeaderId="[HERO]" rightHeaderId="610401" dir="1" talkName="610401">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="767">
+    <dialog id="1" msg="未听说花果山有你这样的妖怪，你是猴子请来的救兵吗！" type="1" leftHeaderId="[HERO]" rightHeaderId="610403" dir="1" talkName="610403">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="算你长了眼！" type="1" leftHeaderId="[HERO]" rightHeaderId="610403" dir="0" talkName="[HERO]">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="768">
+    <dialog id="1" msg="你这打雷的倒是厉害得紧，若有机会，我们再打一场！" type="1" leftHeaderId="[HERO]" rightHeaderId="610415" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="你这妖怪，休要猖狂，下次再见，定然让你魂飞魄散！" type="1" leftHeaderId="[HERO]" rightHeaderId="610415" dir="1" talkName="610415">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="769">
+    <dialog id="1" msg="哈哈哈，二郎神！" type="1" leftHeaderId="[HERO]" rightHeaderId="610416" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="？" type="1" leftHeaderId="[HERO]" rightHeaderId="610416" dir="1" talkName="610416">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="就让我们过过招，看看我与师兄谁能先胜你一步吧！" type="1" leftHeaderId="[HERO]" rightHeaderId="610416" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="呵！但愿你不是只会夸夸其谈之辈！" type="1" leftHeaderId="[HERO]" rightHeaderId="610416" dir="1" talkName="610416">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="770">
+    <dialog id="1" msg="呼……他只有一半元神分身于此，尚令我战得如此艰难，这二郎真君不愧是难对付的人物。不知师兄那边如何了，我要速速赶回一观才行。" type="1" leftHeaderId="[HERO]" rightHeaderId="0" dir="0" talkName="[HERO]">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="771">
+    <dialog id="1" msg="你这身装备，面对小小天兵尚可，但恐怕抵挡不了之后的战斗，还是速速强化一番，免去麻烦。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="还是师妹思虑周详。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：强化装备"/>
+    </dialog>
+  </talk>
+  <talk id="772">
+    <dialog id="1" msg="已经完成了吗？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="773">
+    <dialog id="1" msg="嗯……看起来高上大了一些。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：强化装备"/>
+    </dialog>
+  </talk>
+  <talk id="774">
+    <dialog id="1" msg="恩人，你随大王一同闯那地府，可千万小心些，提升技能等级和装备等级不说，宝石镶嵌也是必不可少的。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="还要多谢你的提醒。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：宝石镶嵌"/>
+    </dialog>
+  </talk>
+  <talk id="775">
+    <dialog id="1" msg="恩人可将那宝石镶在了装备上？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="776">
+    <dialog id="1" msg="这宝石果然很有助益吧。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：宝石镶嵌"/>
+    </dialog>
+  </talk>
+  <talk id="777">
+    <dialog id="1" msg="（嗯……看着法宝的样式，难道是觉因师妹所炼？）我定会妥善使用。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="哼……如此最好。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：获得法宝"/>
+    </dialog>
+  </talk>
+  <talk id="778">
+    <dialog id="1" msg="我这就将它装备在身。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：装备法宝"/>
+    </dialog>
+  </talk>
+  <talk id="779">
+    <dialog id="1" msg="你……知道什么是魔王副本吗？" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="师妹，你这话说得好似传销的经典开场白……" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="咳，吾是之前因缘巧合下曾去过，一路过关斩将收获了许多有趣的东西，所以才要为你介绍一番。如果你能通过其中的考验并有所获得，相信对你会有些助益，西行之路也走得容易些。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="哦？里面会有什么？" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="5" text="下一步"/>
+    </dialog>
+    <dialog id="5" msg="极品装备，点击就送；屠龙宝刀……哦，不，是通关之后可获得大量铜钱和经验，有一定几率获得高级宝石、神翼残片、天界突破丹等。经过之前的战斗，想必你已经了解斗魂的可怕威力了。不过，这通关之路漫长且艰险，最好还是与朋友结伴同行。如果你不惧挑战，就再来找我吧。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="6" text="下一步"/>
+    </dialog>
+    <dialog id="6" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：今天开始揍魔王"/>
+    </dialog>
+  </talk>
+  <talk id="780">
+    <dialog id="1" msg="小心，切记要与人结伴前往。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="听起来很有意思，不妨一试。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：今天开始揍魔王"/>
+    </dialog>
+  </talk>
+  <talk id="781">
+    <dialog id="1" msg="啊……" type="1" leftHeaderId="[HERO]" rightHeaderId="610404" dir="1" talkName="610404">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="还饥渴吗？哈哈哈哈，别耍嘴啊，你怎么耍嘴，都是个棒槌！" type="1" leftHeaderId="[HERO]" rightHeaderId="610404" dir="0" talkName="[HERO]">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="782">
+    <dialog id="1" msg="力量！Power！" type="1" leftHeaderId="0" rightHeaderId="610996" dir="1" talkName="610996">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="783">
+    <dialog id="1" msg="谁敢拦我，揍你哦(#‵^′)！" type="1" leftHeaderId="0" rightHeaderId="610997" dir="1" talkName="610997">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="784">
+    <dialog id="1" msg="按照老猕猴所指方向，它的小孙子应该就是被抓到这里来了……" type="1" leftHeaderId="[HERO]" rightHeaderId="0" dir="0" talkName="[HERO]">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="785">
+    <dialog id="1" msg="吾乃是菩提祖师座下，觉字辈弟子，道名觉因，取通觉前尘，洞悉因果之意。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="786" isMotionScreen="1">
+    <dialog id="1" msg="师妹……" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="森罗殿近在眼前，[SEXY]，你可是在担心即将遇到的敌人？" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="都快把我吓哭了╮(╯▽╰)╭" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="你的装备在连番战斗中已经不再适用，不妨略加提升，增强战力。连续精炼五次，必有明显效果~" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="5" text="下一步"/>
+    </dialog>
+    <dialog id="5" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：秣马厉兵"/>
+    </dialog>
+  </talk>
+  <talk id="787">
+    <dialog id="1" msg="嗯……如此，倒是有了更多的胜算。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="好，我这就去会会那掌管世人生死的阎王！" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：秣马厉兵"/>
+    </dialog>
+  </talk>
+  <talk id="788" isMotionScreen="1">
+    <dialog id="1" msg="奇怪，为何一个人影都没有？" type="1" leftHeaderId="[HERO]" rightHeaderId="0" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="不管了，总之先找到师兄再说。" type="1" leftHeaderId="[HERO]" rightHeaderId="0" dir="0" talkName="[HERO]">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="789" isMotionScreen="1">
+    <dialog id="1" msg="这……莫非是有人布下的法阵？" type="1" leftHeaderId="0" rightHeaderId="0" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="[HERO]，你是否感到耳畔梵音四起，有妖力渐渐流逝之感……？" type="2" leftHeaderId="0" rightHeaderId="0" dir="0" talkName="610999">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="这法阵好生厉害……啊，我的力气……是谁在那？这是什么阵法？" type="1" leftHeaderId="[HERO]" rightHeaderId="0" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="声音再次远远传来。" type="1" leftHeaderId="0" rightHeaderId="0" dir="0" talkName=".">
+      <option type="2" imgid="" color="" data="5" text="下一步"/>
+    </dialog>
+    <dialog id="5" msg="此乃“阴阳五行阵”。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610999">
+      <option type="2" imgid="" color="" data="6" text="下一步"/>
+    </dialog>
+    <dialog id="6" msg="你是何人，为何要困住我？" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="7" text="下一步"/>
+    </dialog>
+    <dialog id="7" msg="想要知我身份，本也不难。依从我的引导，破阵之后来阵心找我吧。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610999">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="790">
+    <dialog id="1" msg="[HERO]，你是否感到耳畔梵音四起，有妖力渐渐流逝之感……？" type="2" leftHeaderId="0" rightHeaderId="610002" dir="1" talkName="610002"/>
+  </talk>
+  <talk id="791" isMotionScreen="1">
+    <dialog id="1" msg="这是哪儿？看起来有点叼~" type="1" leftHeaderId="[HERO]" rightHeaderId="0" dir="0" talkName="[HERO]">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="792" isMotionScreen="1">
+    <dialog id="2" msg="攻击或杀死小怪可以获得怒气值，当怒气值满后，就可以使用强大的无双技能了。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="1" msg="师妹，来讲讲，何为“无双”！" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="师妹……你讲就讲，为何站的这么远？" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="因为……我怕你一会儿会爆炸哦☆～（ゝ。∂）" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="793" isMotionScreen="1">
+    <dialog id="1" msg="好可怕的力量！这种厚积而爆发的感觉……！！有了这种技能，不用多久，我就会修炼成仙，当上天君，四处征战，迎娶……不，我还是先去救师兄吧~" type="1" leftHeaderId="[HERO]" rightHeaderId="0" dir="0" talkName="[HERO]">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="794">
+    <dialog id="2" msg="是考验你之天资的时候了。你我此时所立身之地乃一奇阵，此阵充溢天地浩然之气，在此阵之中，[HERO]，你所修的道元已经不值一提，但天生妖力反而会在刺激中疯狂滋长……这样，也许就是你见识真正自己的时刻了，你的妖力究竟能到达什么境界，就要看你自己的了。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+    <dialog id="1" msg="观音大士召我在此现身，必有紧要之事，还请指教。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+  </talk>
+  <talk id="795" isMotionScreen="">
+    <dialog id="1" msg="果真是天生之妖灵！道家真元与妖灵之力双流同归，呈此消彼长之势，消耗一方的同时，另一方必定有所增加，真正做到了道元与妖灵的结合……" type="1" leftHeaderId="0" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="796" isMotionScreen="">
+    <dialog id="1" msg="双流交汇，能量源源不绝，我竟是如此得天独厚之材吗！哈哈哈哈哈……！" type="1" leftHeaderId="[HERO]" rightHeaderId="0" dir="0" talkName="[HERO]">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="797" isMotionScreen="">
+    <dialog id="1" msg="强化翅膀" type="1" leftHeaderId="0" rightHeaderId="600106" dir="1" talkName="600106">
+      <option type="4" imgid="" color="" data="0" text="接受任务：强化神翼"/>
+    </dialog>
+  </talk>
+  <talk id="798" isMotionScreen="">
+    <dialog id="1" msg="强了吗？" type="1" leftHeaderId="0" rightHeaderId="600106" dir="1" talkName="600106">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="799" isMotionScreen="">
+    <dialog id="1" msg="强好了吧。" type="1" leftHeaderId="0" rightHeaderId="600106" dir="1" talkName="600106">
+      <option type="3" imgid="" color="" data="0" text="完成任务：强化神翼"/>
+    </dialog>
+  </talk>
+  <talk id="801" isMotionScreen="">
+    <dialog id="1" msg="摇一摇~？好像会有铜币掉下来。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：摇钱树"/>
+    </dialog>
+  </talk>
+  <talk id="802" isMotionScreen="">
+    <dialog id="1" msg="摇到了谁？哦……不对，摇到了多少钱？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：摇钱树"/>
+    </dialog>
+  </talk>
+  <talk id="803" isMotionScreen="">
+    <dialog id="1" msg="[HERO]，这件法宝是我亲手所炼，对你日后战斗或有帮助，你带上吧。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="（这看起来像个危险品，只差在盒子上标注“易碎”、“危险”、“剧毒”了……）多谢师妹，却不知该如何使用？" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="这个简单，让我为你演示一番。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="804" isMotionScreen="">
+    <dialog id="1" msg="有点意思，威力不俗，可惜只能使用一次，可称过把瘾就死。" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="法宝都是需要强化的，强化法宝不但可以提升法宝的威能，还可以增加使用次数。在我所设下的幻境中，此法宝可以无限使用，你就痛痛快快地打一场，了解这法宝的无限可能吧！" type="1" leftHeaderId="[HERO]" rightHeaderId="600102" dir="1" talkName="600102">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="805" isMotionScreen="1">
+    <dialog id="1" msg="原来是观音大士！方才多谢观音指点，只是我还有一事不太理解……在阵中，我打败那红毛狮精之后获得了它的魂力，并凝成星魂，却不知这星魂是干什么吃的？" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="（卧槽，如此特殊的战斗技巧，这货难道就是传说中的逆天改命之人？沟通星宿，吸收魂力……）" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="4" msg="师妹也在？嗯，我去见她一面。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="5" text="下一步"/>
+    </dialog>
+    <dialog id="5" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：南海观音"/>
+    </dialog>
+    <dialog id="3" msg="此乃天生之力，极为罕见。只是天赋容易，修行不易，且行且珍惜，待你累积了足够魂玉之后，我会解答你的更多疑惑。现在，先去找你的小师妹吧，她等你许久了。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="1" talkName="610002">
+      <option type="2" imgid="" color="" data="4" text="下一步"/>
+    </dialog>
+  </talk>
+  <talk id="806" isMotionScreen="">
+    <dialog id="1" msg="我这就去找觉因师妹。" type="1" leftHeaderId="[HERO]" rightHeaderId="610002" dir="0" talkName="[HERO]">
+      <option type="1" imgid="" color="" data="0" text="。"/>
+    </dialog>
+  </talk>
+  <talk id="807" isMotionScreen="">
+    <dialog id="1" msg="觉因师妹。" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="[HERO][SEXY]，我来助你破阵。" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：南海观音"/>
+    </dialog>
+  </talk>
+  <talk id="808" isMotionScreen="">
+    <dialog id="1" msg="吾乃是菩提祖师座下，觉字辈弟子，道名觉因，取通觉前尘，洞悉因果之意。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="还好有师妹你，我对这什么法阵可是一窍不通。"/>
+    </dialog>
+    <dialog id="2" msg="谁要你在师父教诲时偷懒划水？&#xD;此阵化天地阴阳五行而成，只要将这阴阳五行阵灵逐个打败，即可破阵而出。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="3" text="好，打架我擅长。"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：赤火之阵"/>
+    </dialog>
+  </talk>
+  <talk id="809" isMotionScreen="">
+    <dialog id="1" msg="[SEXY]多加小心。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName=""/>
+  </talk>
+  <talk id="810" isMotionScreen="">
+    <dialog id="1" msg="吾乃是菩提祖师座下，觉字辈弟子，道名觉因，取通觉前尘，洞悉因果之意。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="嘶……这火把我烧了个七八分熟，眼见就可以装盘端桌了。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：赤火之阵"/>
+    </dialog>
+  </talk>
+  <talk id="811" isMotionScreen="">
+    <dialog id="1" msg="莫急，下一阵立刻浇得你晶晶亮透心凉。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="难道是水阵？"/>
+    </dialog>
+    <dialog id="2" msg="洗澡莫忘了带肥皂，不然还要去捡旁人落下的。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：黑水之阵"/>
+    </dialog>
+  </talk>
+  <talk id="812" isMotionScreen="">
+    <dialog id="1" msg="吾乃是菩提祖师座下，觉字辈弟子，道名觉因，取通觉前尘，洞悉因果之意。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="痛痛快快玩了一场水，哈哈~"/>
+    </dialog>
+    <dialog id="2" msg="看你神采飞扬，在阵中似有所得？" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="3" text="果然瞒不住师妹你，师父原来传过我一招，可惜我总掌握不到，这在水中折腾久了，倒明白了两分。"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：黑水之阵"/>
+    </dialog>
+  </talk>
+  <talk id="813" isMotionScreen="">
+    <dialog id="1" msg="下面一阵是……咦，看不清，[SEXY]，看来师妹我只能帮你到这了。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="没关系，也到了该找其他NPC进行对话的时候了，我去找观音聊聊。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：求助观音"/>
+    </dialog>
+  </talk>
+  <talk id="814" isMotionScreen="">
+    <dialog id="1" msg="以至诚之心默念吾之名号，入火不烧、入水不淹、恶鬼远离、刑器自毁、怨贼消退、除一切障、免一切难、满一切愿、成就一切福德。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="观音慈悲，此阵高深，实非我等小辈可解，还望得您指点，助我脱身。"/>
+    </dialog>
+    <dialog id="2" msg="说人话。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="3" text="观音姐姐快帮我脱团……啊，不对，脱阵啊~"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：求助观音"/>
+    </dialog>
+  </talk>
+  <talk id="815" isMotionScreen="">
+    <dialog id="1" msg="嗯……下一阵是青木之阵，木为东，不管看到什么遮挡，你都不要绕道，一路往东就能见到阵灵了。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="原来如此！多谢！"/>
+    </dialog>
+    <dialog id="2" msg="（嗯……此妖究竟是领悟力强心性坚定，还是天然呆没多想呢……）" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：青木之阵"/>
+    </dialog>
+  </talk>
+</root>

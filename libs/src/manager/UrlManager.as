@@ -18,6 +18,12 @@ package manager
 			return _instance;
 		}
 		
+		//获取xml的路径
+		public function getXmlUrl(name:String):String{
+			return PathManager.getInstance().xmlPath + name + SuffixConst.SUF_XML;
+		}
+		
+		//获取加载背景的图片路径
 		public function getLoadingImgUrl(name:String):String
 		{
 			return PathManager.getInstance().loadingImgPath + name + "_img" + SuffixConst.SUF_JPEG;

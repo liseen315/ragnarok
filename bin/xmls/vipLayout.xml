@@ -1,0 +1,15 @@
+<vipDesc>
+  <privilege desc="{00ff00●开启宝石一键探索}" vip1="true" vip2="true" vip3="true" vip4="true" vip5="true" vip6="true" vip7="true" vip8="true" vip9="true" vip10="true"/>
+  <privilege desc="普通本 免费挂机扫荡" vip1="true" vip2="true" vip3="true" vip4="true" vip5="true" vip6="true" vip7="true" vip8="true" vip9="true" vip10="true"/>
+  <privilege desc="精英本 免费挂机扫荡" vip1="false" vip2="false" vip3="false" vip4="true" vip5="true" vip6="true" vip7="true" vip8="true" vip9="true" vip10="true"/>
+  <privilege desc="{00ff00●开启极速探索}" vip1="false" vip2="false" vip3="false" vip4="true" vip5="true" vip6="true" vip7="true" vip8="true" vip9="true" vip10="true"/>
+  <privilege desc="宝石探索 金币开启" vip1="false" vip2="false" vip3="false" vip4="false" vip5="true" vip6="true" vip7="true" vip8="true" vip9="true" vip10="true"/>
+  <privilege desc="魔王本 免费挂机扫荡" vip1="false" vip2="false" vip3="false" vip4="false" vip5="false" vip6="true" vip7="true" vip8="true" vip9="true" vip10="true"/>
+  <privilege desc="体力每日购买次数" vip1="2" vip2="3" vip3="4" vip4="6" vip5="8" vip6="10" vip7="20" vip8="40" vip9="60" vip10="80"/>
+  <privilege desc="摇钱树每日次数" vip1="4" vip2="6" vip3="8" vip4="10" vip5="20" vip6="30" vip7="50" vip8="100" vip9="150" vip10="200"/>
+  <privilege desc="{00ff00●洗练系统可选档次数}" vip1="1" vip2="2" vip3="2" vip4="2" vip5="3" vip6="3" vip7="3" vip8="4" vip9="4" vip10="4"/>
+  <privilege desc="精英本次数购买上限" vip1="1" vip2="2" vip3="3" vip4="4" vip5="5" vip6="6" vip7="8" vip8="10" vip9="12" vip10="14"/>
+  <privilege desc="魔王本次数购买上限" vip1="1" vip2="2" vip3="3" vip4="4" vip5="5" vip6="6" vip7="8" vip8="10" vip9="12" vip10="14"/>
+  <privilege desc="竞技场次数购买上限" vip1="10" vip2="20" vip3="30" vip4="40" vip5="50" vip6="60" vip7="70" vip8="80" vip9="90" vip10="100"/>
+  <privilege desc="跨服战次数购买上限" vip1="10" vip2="20" vip3="30" vip4="40" vip5="50" vip6="60" vip7="70" vip8="80" vip9="90" vip10="100"/>
+</vipDesc>

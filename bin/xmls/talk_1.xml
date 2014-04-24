@@ -1,0 +1,289 @@
+<root>
+  <talk id="65">
+    <dialog id="1" msg="测试副本" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试副本初探奇山X5"/>
+    </dialog>
+  </talk>
+  <talk id="66">
+    <dialog id="1" msg="测试通用已接任务对话^^" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="1" imgid="" color="" data="0" text="."/>
+    </dialog>
+  </talk>
+  <talk id="67">
+    <dialog id="1" msg="测试副本完成=w=" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试副本"/>
+    </dialog>
+  </talk>
+  <talk id="68">
+    <dialog id="1" msg="测试对话啦啦啦" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试对话"/>
+    </dialog>
+  </talk>
+  <talk id="69">
+    <dialog id="1" msg="和我说完话,就代表测试对话成功了哦." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试对话"/>
+    </dialog>
+  </talk>
+  <talk id="70">
+    <dialog id="1" msg="测试强化了……好像是要砸石头哦亲." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试强化"/>
+    </dialog>
+  </talk>
+  <talk id="71">
+    <dialog id="1" msg="砸完石头了吗0. 0" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试强化"/>
+    </dialog>
+  </talk>
+  <talk id="72">
+    <dialog id="1" msg="接下来是培养……好像是培养玩家自己的属性的……就是培养你的属性啦,笨蛋." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试培养"/>
+    </dialog>
+  </talk>
+  <talk id="73">
+    <dialog id="1" msg="培养成才了吗w" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试培养"/>
+    </dialog>
+  </talk>
+  <talk id="74">
+    <dialog id="1" msg="穿新衣服咯> &lt;" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试穿戴装备"/>
+    </dialog>
+  </talk>
+  <talk id="75">
+    <dialog id="1" msg="穿好了吗?" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试穿戴装备"/>
+    </dialog>
+  </talk>
+  <talk id="76">
+    <dialog id="1" msg="探索宝石……嗯,我喜欢亮晶晶的石头." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试探索宝石"/>
+    </dialog>
+  </talk>
+  <talk id="77">
+    <dialog id="1" msg="找到好看的石头了吗?" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试探索宝石"/>
+    </dialog>
+  </talk>
+  <talk id="78">
+    <dialog id="1" msg="现在把石头镶嵌一下吧." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试镶嵌宝石"/>
+    </dialog>
+  </talk>
+  <talk id="79">
+    <dialog id="1" msg="镶嵌好了吗?" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试镶嵌宝石"/>
+    </dialog>
+  </talk>
+  <talk id="80">
+    <dialog id="1" msg="摇钱树?赚钱用的吗?" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试摇钱树"/>
+    </dialog>
+  </talk>
+  <talk id="81">
+    <dialog id="1" msg="摇啊摇,摇啊摇,摇下银钱买菱角." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试摇钱树"/>
+    </dialog>
+  </talk>
+  <talk id="82">
+    <dialog id="1" msg="洗练装备,快去洗." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试洗练装备"/>
+    </dialog>
+  </talk>
+  <talk id="83">
+    <dialog id="1" msg="洗好了看看有没有比刚才好一点=-=." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试洗练装备"/>
+    </dialog>
+  </talk>
+  <talk id="84">
+    <dialog id="1" msg="呵呵,你的第一个法宝可是我送的." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试装备法宝"/>
+    </dialog>
+  </talk>
+  <talk id="85">
+    <dialog id="1" msg="装好了吗,法宝." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试装备法宝"/>
+    </dialog>
+  </talk>
+  <talk id="86">
+    <dialog id="1" msg="法宝是可以强化一下的." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试强化法宝"/>
+    </dialog>
+  </talk>
+  <talk id="87">
+    <dialog id="1" msg="强化好了吧." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试强化法宝"/>
+    </dialog>
+  </talk>
+  <talk id="88">
+    <dialog id="1" msg="测试星盘了……其实现在改叫星宿了..是不是感觉上没什么区别?" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试点亮星盘"/>
+    </dialog>
+  </talk>
+  <talk id="89">
+    <dialog id="1" msg="点好了." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试点亮星盘"/>
+    </dialog>
+  </talk>
+  <talk id="90">
+    <dialog id="1" msg="测试一下……从星盘是可以领取经验的=-=你觉得连续加快十次领经验的速度的按钮叫什么比较好听?" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试领取星盘经验"/>
+    </dialog>
+  </talk>
+  <talk id="91">
+    <dialog id="1" msg="我想了一下,觉得还是大白话比较容易讲清楚,真悲伤." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试领取星盘经验"/>
+    </dialog>
+  </talk>
+  <talk id="92" isMotionScreen="1">
+    <dialog id="1" msg="如此上天入地颇为不便，那猴子有筋斗云，我便替你偷了师父一双神翼来，便于行走，增强属性，外观华丽，实乃居家旅行杀人越货……咳咳，总之先试试看。" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="3" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：获得神翼"/>
+    </dialog>
+    <dialog id="2" msg="还是师妹对我最好。" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="3" text="下一步"/>
+    </dialog>
+  </talk>
+  <talk id="93">
+    <dialog id="1" msg="有时候我觉得自己是一只小小小鸟，想要飞却……嗯？行走如飞身轻体健，果然不凡~" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="0" talkName="[HERO]">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：获得神翼"/>
+    </dialog>
+  </talk>
+  <talk id="94">
+    <dialog id="1" msg="观音大士好像有事找你，让我将你传送过去……啧，二人世界哦~" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：七十二变"/>
+    </dialog>
+  </talk>
+  <talk id="95">
+    <dialog id="1" msg="七十二变是不是很厉害？唉，羡慕嫉妒恨啊，从此你就可以使用其他神啊仙啊妖啊鬼啊的力量了……怎么感觉很bug呢?" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：七十二变"/>
+    </dialog>
+  </talk>
+  <talk id="96">
+    <dialog id="1" msg="装备称号." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务:测试装备称号"/>
+    </dialog>
+  </talk>
+  <talk id="97">
+    <dialog id="1" msg="为什么只有我一个人在说话,你都不回答?我不高兴了,今天就测到这吧哼(#‵^′)." type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务:测试装备称号"/>
+    </dialog>
+  </talk>
+  <talk id="98">
+    <dialog id="1" msg="新增了一个测试……强化技能？" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：测试强化技能"/>
+    </dialog>
+  </talk>
+  <talk id="99">
+    <dialog id="1" msg="强化成功了吗？好像是成功了。" type="1" leftHeaderId="[HERO]" rightHeaderId="610001" dir="1" talkName="610001">
+      <option type="2" imgid="" color="" data="2" text="下一步"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="3" imgid="" color="" data="0" text="完成任务：测试强化技能"/>
+    </dialog>
+  </talk>
+  <talk id="101">
+    <dialog id="1" msg="不错，百来年未见你也长进了，来，喝酒庆贺一番。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：把酒同欢"/>
+    </dialog>
+  </talk>
+  <talk id="100">
+    <dialog id="1" msg="恩人不要再泄露行踪了！那天将此时不在，应是四处逡巡之中，冒然出去，万一撞上了可如何是好。" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="2" imgid="" color="" data="2" text="就是要撞上他！打他个有来无回。"/>
+    </dialog>
+    <dialog id="2" msg="" type="0" leftHeaderId="" rightHeaderId="" dir="" talkName="">
+      <option type="4" imgid="" color="" data="0" text="接受任务：持国天王"/>
+    </dialog>
+  </talk>
+</root>
