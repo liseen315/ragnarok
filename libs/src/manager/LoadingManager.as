@@ -3,9 +3,11 @@ package manager
 	import consts.nots.LoaderNote;
 	import consts.nots.LoadingNote;
 	
+	import flash.display.Bitmap;
 	import flash.utils.Dictionary;
 	
 	import observer.LDispatch;
+	import observer.Notification;
 	
 	import vos.LoaderDTO;
 
@@ -58,9 +60,17 @@ package manager
 			LDispatch.dispatch(LoaderNote.LOAD_SINGLE,lDTO);
 		}
 		
-		private function bmLoaded():void
+		private function bmLoaded(notic:Notification):void
 		{
-			
+			var idStr:String = (notic.data.param) ? notic.data.param.id.toString() : null;
+			if (idStr == null){
+				return;
+			}
+			this._bmdic[idStr] = Bitmap(notic.data.content).bitmapData;
+			LDispatch.dispatch(LoadingNote.LOADING_IMG_LOADED,{
+				url:idStr,
+				bmd:this._bmdic[idStr]
+			});
 		}
 		
 		private function bmLoadFailed():void

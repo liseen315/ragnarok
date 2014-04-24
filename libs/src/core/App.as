@@ -6,6 +6,7 @@ package core
 	import flash.display.StageAlign;
 	import flash.display.StageQuality;
 	import flash.display.StageScaleMode;
+	import flash.events.Event;
 	
 	import observer.LDispatch;
 	import observer.Notification;
@@ -36,7 +37,8 @@ package core
 		
 		private function mainImgLoaded(notic:Notification):void
 		{
-			
+			this.removeNot();
+			this.dispatchEvent(new Event("mainok"));
 		}
 	}
 }

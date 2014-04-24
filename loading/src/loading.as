@@ -77,7 +77,25 @@ package
 		{
 			(e.target as LoaderInfo).removeEventListener(Event.COMPLETE,onMainLoadedHandler);
 			var mainApp:IApp = e.target.content as IApp;
+			mainApp.addEventListener("mainok",onMainOkHandler);
 			this.addChild(mainApp as Sprite);
+		}
+		
+		private function onMainOkHandler(e:Event):void
+		{
+			(e.target as IApp).removeEventListener("mainok",onMainOkHandler);
+			this.clearLoadingMC();
+		}
+		
+		private function clearLoadingMC():void
+		{
+			if (this._loadingMC){
+				this._loadingMC.stop();
+				if (this._loadingMC.parent){
+					this._loadingMC.parent.removeChild(this._loadingMC);
+				}
+				this._loadingMC = null;
+			}
 		}
 	}
 }

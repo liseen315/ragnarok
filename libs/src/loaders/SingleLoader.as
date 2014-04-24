@@ -75,6 +75,23 @@ package loaders
 			}
 		}
 		
+		override protected function doDataHandler(lDTO:LoaderDTO, content:*):void
+		{
+			var tempContentObj:*;
+			if (lDTO.callbackParam){
+				tempContentObj = new Object();
+				tempContentObj.content = content;
+				tempContentObj.param = lDTO.callbackParam;
+			} else {
+				tempContentObj = content;
+			};
+			if (lDTO.callbackNote){
+				LDispatch.dispatch(lDTO.callbackNote,tempContentObj);
+			} else {
+				LDispatch.dispatch(LoaderNote.SINGLE_LOADED,tempContentObj);
+			};
+		}
+		
 		private function onIOError(e:ErrorEvent):void
 		{
 			
