@@ -168,11 +168,11 @@ package loaders
 			loader.get(id).removeEventListener(BulkLoader.COMPLETE, this.singleBabelHandler);
 		}
 		
+		//当基础配置数据全部加载完毕后通知主中介者
 		override protected function allLoaded():void
 		{
 			super.allLoaded();
 			LDispatch.dispatch(LoaderNote.INIT_LOADED);
-			trace("allLoaded");
 		}
 	}
 }

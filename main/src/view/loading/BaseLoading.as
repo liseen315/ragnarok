@@ -5,6 +5,7 @@ package view.loading
 	import core.BaseSprite;
 	
 	import flash.display.Bitmap;
+	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	
 	import gamedata.GlobalVars;
@@ -12,19 +13,23 @@ package view.loading
 	import gameinterfaces.ILoading;
 	
 	import manager.LayerManager;
+	import manager.TimerManager;
 	
 	public class BaseLoading extends BaseSprite implements ILoading
 	{
 		protected const maskColor:uint = 0;
 		
 		protected var _id:int;
+		protected var _time_id:int = -1;
 		protected var maskAlpha:Number = 0.2;
 		protected var _mask:Sprite;
 		protected var _content:Sprite;
 		protected var _bg:Bitmap;
 		protected var _loading_w:int = 100;
-		protected var _init_x:int = 0;
 		protected var _pscale:Number = 0;
+		protected var _max_scale:Number = 0.99;
+		protected var _loadingMc:MovieClip;
+		protected var _init_x:int = 0;
 		
 		public function BaseLoading()
 		{
@@ -80,6 +85,27 @@ package view.loading
 			}
 		}
 		
+		protected function setLoadingPosition():void{
+			if (!this._loadingMc){
+				return;
+			}
+			
+			var _local1:Number = (((this._loading_w * this._pscale) * 100) >> 0) / 100;
+			if (this._loadingMc.loading_mask){
+				this._loadingMc.loading_mask.width = _local1;
+				if (this._loadingMc.loading_mask.width > this._loading_w){
+					this._loadingMc.loading_mask.width = this._loading_w;
+				}
+			}
+			
+			if (this._loadingMc.loading_point){
+				this._loadingMc.loading_point.x = (this._init_x + _local1);
+				if (this._loadingMc.loading_point.x > (this._init_x + this._loading_w)){
+					this._loadingMc.loading_point.x = (this._init_x + this._loading_w);
+				}
+			}
+		}
+		
 		protected function addContent():void
 		{
 			this.removeContent();
@@ -95,10 +121,6 @@ package view.loading
 				}
 				this._content = null;
 			}
-		}
-		
-		protected function removeTimer():void{
-			
 		}
 		
 		protected function loadingMove(_arg1:Number=0.2):void
@@ -128,6 +150,19 @@ package view.loading
 				this._mask.graphics.drawRect(0, 0, GlobalVars.stageW, GlobalVars.stageH);
 				this._mask.graphics.endFill();
 			}
+		}
+		
+		protected function addTimer(timeID:int):void
+		{
+			this._time_id = TimerManager.getInstance().addTimer(timeID,this.timeHandler);
+		}
+		
+		protected function removeTimer():void
+		{
+			this._time_id = TimerManager.getInstance().removeTimer(this._time_id);
+		}
+		
+		protected function timeHandler():void{
 		}
 	}
 }

@@ -58,6 +58,7 @@ package
 		//启动
 		private function startUp():void
 		{
+			var develop:Developer = new Developer();
 			//布置显示层
 			LayerManager.getInstance().initLayers(this);
 			this.setStageProperty();

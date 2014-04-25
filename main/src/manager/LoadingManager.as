@@ -38,6 +38,11 @@ package manager
 			return _instance;
 		}
 		
+		/**
+		 *加载位图 
+		 * @param path	位图路径
+		 * 
+		 */		
 		public function loadBitmap(path:String):void
 		{
 			if(this._bmdic[path])
@@ -61,6 +66,26 @@ package manager
 			LDispatch.dispatch(LoaderNote.LOAD_SINGLE,lDTO);
 		}
 		
+		/**
+		 *清理 
+		 * @param key	键
+		 * 
+		 */		
+		public function clear(key:String):void{
+			
+			if(key && this._bmdic[key])
+			{
+				this._bmdic[key].dispose();
+				delete this._bmdic[key];
+			}
+		}
+		
+		/**
+		 * 通过键获取位图数据
+		 * @param bgmKey 键
+		 * @return 
+		 * 
+		 */		
 		public function getBM(bgmKey:String):BitmapData
 		{
 			return (this._bmdic[bgmKey] as BitmapData).clone();

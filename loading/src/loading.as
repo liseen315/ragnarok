@@ -59,7 +59,7 @@ package
 			var textLen:int = tlist.length();
 			var index:int;
 			while (index < textLen) {
-				this._xmlList.push(tlist[textLen]);
+				this._xmlList.push(tlist[index]);
 				index++;
 			}
 			
@@ -77,6 +77,7 @@ package
 		{
 			(e.target as LoaderInfo).removeEventListener(Event.COMPLETE,onMainLoadedHandler);
 			var mainApp:IApp = e.target.content as IApp;
+			mainApp.loadingtxt = this._xmlList;
 			mainApp.addEventListener("mainok",onMainOkHandler);
 			this.addChild(mainApp as Sprite);
 		}

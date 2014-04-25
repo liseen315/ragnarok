@@ -3,7 +3,6 @@
   <includeClasses>
     <classEntry path="gameinterfaces.IApp"/>
     <classEntry path="core.App"/>
-    <classEntry path="gamedata.GlobalVars"/>
     <classEntry path="observer.LDispatch"/>
     <classEntry path="observer.Notification"/>
     <classEntry path="consts.nots.LoadingNote"/>
@@ -17,13 +16,10 @@
     <classEntry path="game.layers.MenuLayer"/>
     <classEntry path="game.layers.MiddleMenuLayer"/>
     <classEntry path="game.layers.GuideLayer"/>
-    <classEntry path="game.layers.FullPopLayer"/>
     <classEntry path="game.layers.PopLayer"/>
-    <classEntry path="game.layers.AlertLayer"/>
     <classEntry path="game.layers.TipsMenuLayer"/>
     <classEntry path="game.layers.MarqueeLayer"/>
     <classEntry path="game.layers.TipLayer"/>
-    <classEntry path="game.layers.LoadingLayer"/>
     <classEntry path="game.layers.ConsoleLayer"/>
     <classEntry path="game.layers.SystemLayer"/>
     <classEntry path="game.layers.TopLayer"/>
@@ -46,12 +42,10 @@
     <classEntry path="consts.LoadingConst"/>
     <classEntry path="gameinterfaces.ILoading"/>
     <classEntry path="observer.Dic"/>
-    <classEntry path="loaders.InitLoader"/>
     <classEntry path="consts.XmlConst"/>
     <classEntry path="manager.XmlManager"/>
-    <classEntry path="manager.CSVManager"/>
     <classEntry path="consts.CsvConst"/>
-    <classEntry path="manager.TimerManager"/>
+    <classEntry path="consts.NetConst"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
