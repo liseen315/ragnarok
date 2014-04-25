@@ -1,5 +1,9 @@
 package net
 {
+	import com.hurlant.crypto.hash.MD5;
+	import com.hurlant.crypto.symmetric.CBCMode;
+	import com.hurlant.crypto.symmetric.DESKey;
+	
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
@@ -7,8 +11,10 @@ package net
 	import flash.events.ProgressEvent;
 	import flash.events.SecurityErrorEvent;
 	import flash.net.Socket;
+	import flash.utils.ByteArray;
 	import flash.utils.Dictionary;
 	import flash.utils.Endian;
+
 	/**
 	 *看样子作者很稀饭巴比伦啊 
 	 * @author Administrator
@@ -16,6 +22,15 @@ package net
 	 */	
 	public class BabelTimeSocket implements IEventDispatcher
 	{
+		
+		private static const TOKEN_HISTORY_LENGTH:int = 10;
+		private static const HEAD_LENGTH:uint = 8;
+		private static const BODY_LENGTH:uint = 4;
+		private static const ENCRYPT_LENGTH:uint = 16;
+		private static const STATUS_PARSEHEAD:String = "statusparsehead";
+		private static const STATUS_PARSEBODY:String = "statusparsebody";
+		private static const STATUS_PARSEENCRYPT:String = "statusparseencrypt";
+		
 		private static var _instance:BabelTimeSocket;
 		
 		private var _eventDispatcher:IEventDispatcher;
@@ -25,6 +40,10 @@ package net
 		private var _port:int;
 		private var _useEncrypt:Boolean;
 		private var token:String = "0";//标记
+		private var _currentParseStatus:String;//当前解析状态，解析头，解析Body
+		private var _des:DESKey;
+		private var _cbc:CBCMode;
+		private var _md5:MD5;
 		
 		public var onCloseCallback:Function;
 		public function BabelTimeSocket()
@@ -32,6 +51,8 @@ package net
 			this.initEventDispatcher();
 			this.initCallBackDic();
 			this.initSocket();
+			this.initStatus();
+			this.initDes();
 		}
 		
 		public static function getInstance():BabelTimeSocket
@@ -129,8 +150,38 @@ package net
 				trace("服务器断开了!");
 				return;
 			}
-			
-			
+			var randomSeed:uint;
+			var message:ByteArray = new ByteArray();
+			message.objectEncoding = this._socket.objectEncoding;
+			message.endian = Endian.BIG_ENDIAN;
+			var value:Object = {};
+			value.method = actionName;
+			value.callback = {};
+			value.callback.callbackName = callBack.callbackName;
+			value.type = 1;
+			value.token = this.token;
+			if (callBack.callbackParameters){
+				randomSeed = this.getRandomCallbackParamID();
+				value.callback.callbackParameID = randomSeed;
+				this._callbackParamDic[randomSeed] = callBack.callbackParameters;
+			}
+			value.args = _args;
+			message.writeObject(value);
+			var random:Number = Math.random();
+			var IV:ByteArray = new ByteArray();
+			IV.writeDouble(random);
+			this.setIV(IV);
+			if (this._useEncrypt){
+				this.encrypt(message);
+			}
+			this._socket.writeUnsignedInt(message.length + 8);
+			this._socket.writeBoolean(this._useEncrypt);
+			this._socket.writeByte(0);
+			this._socket.writeShort(0);
+			this._socket.writeBytes(IV);
+			this._socket.writeBytes(message);
+			message.clear();
+			this._socket.flush();
 		}
 		
 		/**
@@ -199,12 +250,61 @@ package net
 		
 		private function onData(e:ProgressEvent):void
 		{
+			if(this._socket.connected)
+			{
+				this.parseData();
+			}
+		}
+		
+		private function parseData():void
+		{
 			
 		}
 		
 		private function onSecurityError(e:SecurityErrorEvent):void
 		{
 			
+		}
+		
+		private function initStatus():void
+		{
+			this._currentParseStatus = STATUS_PARSEHEAD;
+		}
+		
+		//生成加密库
+		private function initDes():void
+		{
+			var key:ByteArray = new ByteArray();
+			key.writeUTFBytes("spclxoZFwyeApdvkbBmQlCvV");
+			this._des = new DESKey(key);
+			var IV:ByteArray = new ByteArray();
+			IV.writeUTFBytes("JjELjULcUA");
+			this._cbc = new CBCMode(this._des);
+			this._cbc.IV = IV;
+			this._md5 = new MD5();
+		}
+		
+		private function setIV(ivValue:ByteArray):void
+		{
+			this._cbc.IV = ivValue;
+		}
+		
+		private function encrypt(value:ByteArray):void
+		{
+			this._cbc.encrypt(value);
+		}
+		
+		private function decrypt(value:ByteArray):void
+		{
+			this._cbc.decrypt(value);
+		}
+		
+		private function getRandomCallbackParamID():uint{
+			var randomSeed:uint = (uint.MAX_VALUE * Math.random());
+			if (this._callbackParamDic[randomSeed]){
+				return (this.getRandomCallbackParamID());
+			}
+			return randomSeed;
 		}
 	}
 }
