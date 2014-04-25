@@ -51,6 +51,7 @@
     <classEntry path="manager.XmlManager"/>
     <classEntry path="manager.CSVManager"/>
     <classEntry path="consts.CsvConst"/>
+    <classEntry path="manager.TimerManager"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

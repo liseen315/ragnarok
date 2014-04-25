@@ -23,10 +23,20 @@ package manager
 		public function get xmlPath():String{
 			return PathConst.pathXML;
 		}
-		
+		//获取csv路径
 		public function get csvPath():String
 		{
 			return PathConst.pathCSV;
+		}
+		//获取aiAction路径
+		public function get aiActionPath():String
+		{
+			return PathConst.pathAis;
+		}
+		//获取角色动作模型
+		public function get editedPath():String
+		{
+			return PathConst.pathEdited;
 		}
 		
 		//获取加载背景图路径

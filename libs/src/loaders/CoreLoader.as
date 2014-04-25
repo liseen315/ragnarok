@@ -7,6 +7,8 @@ package loaders
 	
 	import flash.display.Loader;
 	
+	import manager.TimerManager;
+	
 	import observer.Notification;
 	
 	import vos.LoaderDTO;
@@ -14,6 +16,9 @@ package loaders
 	public class CoreLoader
 	{
 		protected var loader:BulkLoader;
+		protected var timerId:int = -1;
+		protected var delay:int = 33;
+		protected var curReload:int = 0;
 		public function CoreLoader(name:String,retryNum:int = 12)
 		{
 			this.loader = new BulkLoader(name,retryNum);
@@ -51,6 +56,48 @@ package loaders
 		protected function doDataHandler(lDTO:LoaderDTO, content:*):void
 		{
 			
+		}
+		
+		protected function addTimer():void
+		{
+			this.removeTimer();
+			this.timerId = TimerManager.getInstance().addTimer(this.delay, this.timeHandler);
+		}
+		
+		protected function removeTimer():void
+		{
+			if(this.timerId == -1)
+			{
+				return;
+			}
+			this.timerId = TimerManager.getInstance().removeTimer(this.timerId);
+		}
+		
+		protected function timeHandler():void
+		{
+			
+			if (this.loader == null){
+				this.removeTimer();
+				return;
+			}
+			var itemLen:int = this.loader.items.length;
+			if(this.loader.itemsLoaded == itemLen)
+			{
+				this.curReload = 0;
+				this.removeTimer();
+				this.allLoaded();
+			}
+		}
+		
+		protected function allLoaded():void{
+			this.endLoader();
+		}
+		
+		protected function endLoader():void{
+			if (this.loader){
+				this.loader.pauseAll();
+				this.loader.removeAll();
+			}
 		}
 	}
 }

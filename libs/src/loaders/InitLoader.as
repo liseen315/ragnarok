@@ -6,6 +6,7 @@ package loaders
 	import consts.nots.LoaderNote;
 	
 	import flash.events.Event;
+	import flash.utils.ByteArray;
 	
 	import manager.CSVManager;
 	import manager.UrlManager;
@@ -17,7 +18,10 @@ package loaders
 	import util.csvutil.CSV;
 
 	/**
-	 *初始化Loader 
+	 *初始化Loader 主要用于加载系统xml数据
+	 * 系统配置表
+	 * AIData
+	 * 以及角色动作模型数据
 	 * @author Administrator
 	 * 
 	 */	
@@ -25,6 +29,7 @@ package loaders
 	{
 		private const NAME:String = "init_loader_name";
 		private const AI_NAME:String = "ActionAI";
+		private const BABEL_NAME:String = "ed";
 		public function InitLoader()
 		{
 			super(NAME);
@@ -45,7 +50,10 @@ package loaders
 			this.loadXMLData();
 			//在手机版内可以不适用这种数据格式文件.
 			this.loadCSVData();
+			this.loadAIData();
+			this.loadBabelData();
 			loader.start();
+			addTimer();
 		}
 		
 		private function loadXMLData():void
@@ -122,6 +130,49 @@ package loaders
 		private function saveCSV(csvName:String,csvData:CSV):void
 		{
 			CSVManager.getInstance().saveCSV(csvName,csvData);
+		}
+		
+		private function loadAIData():void
+		{
+			var aiPath:String = UrlManager.getInstance().getAIActionUrl(this.AI_NAME);
+			var loadObj:Object = {
+				id:this.AI_NAME,
+				maxTries:1,
+				type:BulkLoader.TYPE_BINARY
+			}
+			loader.add(aiPath, loadObj).addEventListener(BulkLoader.COMPLETE, this.singleAiHandler);
+		}
+		
+		private function singleAiHandler(e:Event):void
+		{
+			var id:String = e.target.id;
+			loader.get(id).removeEventListener(BulkLoader.COMPLETE, this.singleAiHandler);
+			var aiData:ByteArray = ByteArray(e.target.loader.data);
+			aiData.uncompress();
+			LDispatch.dispatch(LoaderNote.INIT_AI_LOADED,aiData);
+		}
+		
+		private function loadBabelData():void
+		{
+			var babelPath:String = UrlManager.getInstance().getBabelZipUrl(BABEL_NAME);
+			var loadObj:Object = {
+				id:babelPath,
+				maxTries:1
+			}
+			loader.add(babelPath, loadObj).addEventListener(BulkLoader.COMPLETE, this.singleBabelHandler);
+		}
+		
+		private function singleBabelHandler(e:Event):void
+		{
+			var id:String = e.target.id;
+			loader.get(id).removeEventListener(BulkLoader.COMPLETE, this.singleBabelHandler);
+		}
+		
+		override protected function allLoaded():void
+		{
+			super.allLoaded();
+			LDispatch.dispatch(LoaderNote.INIT_LOADED);
+			trace("allLoaded");
 		}
 	}
 }
