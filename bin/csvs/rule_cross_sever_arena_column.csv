@@ -1,0 +1,19 @@
+名字,,值
+name,type,value
+初始积分,base_score,0
+额外积分,bonus_score,10
+每日额外积分次数,bonus_num_everyday,5
+每日战斗次数,fight_num,10
+匹配确认时间,matching_confirm_time,5
+战前等待时间,ready_time,5
+,,
+扩散单位时间（匹配时间）秒,matching_time,5
+最大扩散次数,matching_max,6
+战斗时间（秒）,fight_time,300
+,,
+跨服PK积分排名 结算点,cross_sever_arena_check_time,6~10:00:00
+跨服PK积分排名 结算时间,check_second,1800
+,,
+跨服竞技场 血量倍数,cross_sever_hp_multiple,20
+,,
+跨服战 匹配时间限制,cross_sever_time_limit,8:00:00~2:00:00

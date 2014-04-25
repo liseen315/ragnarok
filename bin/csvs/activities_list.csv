@@ -1,0 +1,10 @@
+策划备注名,活动ID,活动名称,活动描述,功能节点,列表图片,说明图片,是公告
+,activities_id,name,activities_desc,node,pic_title,pic_desc,is_note
+,1,世界boss,"攻打世界boss 获得海量铜钱、灵力、声望
+{00ff60●活动时间：15：00~15：20}",21,chapter/shijieboss.png,activityOverview/worldBoss.png,
+,2,封印妖狐,"公会战友共推九尾妖狐 合力赢得丰厚奖励
+{00ff60●活动时间：20：00~20：20}",14,chapter/jifenboss.png,activityOverview/score_world_boss.png,
+,3,摇钱树,"摇一摇，漫天铜钱
+{00ff60●活动时间：全天}",16,chapter/yaoqianshu.png,activityOverview/moneyTree.png,
+,4,打财神,"打一打，财神服软
+{00ff60●活动时间：全天}",17,chapter/caishen.png,activityOverview/mammon.png,

@@ -1,0 +1,8 @@
+策划备注,成就主类型ID,成就类型名称,成就类型图标,子类型ID组
+,id,name,icon,subIds
+,1,人物,achieve/juese.png,101~102~103~104~107~108
+,2,任务,achieve/renwu.png,201~202~203
+,3,副本,achieve/difu.png,301~302~303~304
+,4,战斗,achieve/5113.png,401~402
+,5,公会,achieve/gonghui.png,501~502~503
+,6,活动,achieve/shengwang.png,601

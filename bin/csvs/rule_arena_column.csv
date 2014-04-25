@@ -1,0 +1,14 @@
+名字,,值
+name,type,value
+胜利奖励,win_reward,1|1000~3|100~7|10
+失败奖励,lose_reward,
+每日战斗次数,fight_num,10
+战斗次数 金币购买价格,fight_num_gold_price,50
+战前等待时间,ready_time,3
+失败CD时间,loss_cd_time,600
+清除失败CD 每金币 XX秒,loss_cd_every_gold_sec,12
+刷新 对战目标 CD时间,refresh_fight_opponents_cd_time,3600
+清除刷新CD 每金币 XX秒,refresh_fight_opponents_cd_every_gold_sec,360
+竞技场战斗最大时间（秒）,fight_time,300
+,,
+竞技场 血量倍数,hp_multiple,20

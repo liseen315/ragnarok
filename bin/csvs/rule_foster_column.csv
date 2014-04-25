@@ -1,0 +1,23 @@
+名字,,值
+name,type,value
+培养上限 等级倍数,toplimit_multiple_level_foster,16
+,,
+铜钱培养等级价格,cop_level_price_foster,500
+铜钱培养期望,cop_expectation_foster,10
+（万分之）铜钱培养幅度,cop_range_foster,1500
+（万分之）铜钱培养波动,cop_fluctuate_foster,1500
+1级金币培养VIP限制,gold1_foster_vip_limit,1
+1级金币培养价格,gold1_price_foster,10
+1级金币培养期望,gold1_expectation_foster,10
+（万分之）1级金币培养幅度,gold1_range_foster,4000
+（万分之）1级金币培养波动,gold1_fluctuate_foster,2000
+2级金币培养VIP限制,gold2_foster_vip_limit,4
+2级金币培养价格,gold2_price_foster,40
+2级金币培养期望,gold2_expectation_foster,15
+（万分之）2级金币培养幅度,gold2_range_foster,6000
+（万分之）2级金币培养波动,gold2_fluctuate_foster,3000
+3级金币培养VIP限制,gold3_foster_vip_limit,7
+3级金币培养价格,gold3_price_foster,200
+3级金币培养期望,gold3_expectation_foster,20
+（万分之）3级金币培养幅度,gold3_range_foster,8000
+（万分之）3级金币培养波动,gold3_fluctuate_foster,4000

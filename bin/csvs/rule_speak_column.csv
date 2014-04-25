@@ -1,0 +1,15 @@
+名字,,值
+name,type,value
+金币大喇叭vip限制,viplevel_limit_goldspeak,1
+金币大喇叭 价格,goldspeak_price,50
+道具大喇叭 等级限制,level_limit_itemspeak,10
+道具大喇叭 物品ID,item_itemspeak,1000002
+道具大喇叭 物品消耗数量,item_itemspeak_num,1
+世界聊 等级限制,level_limit_worldspeak,15
+世界聊 开服60天后 等级限制,level_limit_sixtyday_worldspeak,50
+世界聊 频率限制（秒）,speed_limit_worldspeak,3
+私聊 等级限制,level_limit_privatechat,10
+同城聊 频率限制（秒）,speed_limit_townspeak,3
+公会聊 频率限制（秒）,speed_limit_guildspeak,0
+组队 大喇叭 频率限制（秒）,speed_limit_team_shout,10
+展示物品 大喇叭 频率限制（秒）,speed_limit_show_item,5

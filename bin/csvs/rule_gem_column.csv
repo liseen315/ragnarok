@@ -1,0 +1,15 @@
+名字,,值
+name,type,value
+金币购买价格|经验,gold_price,50|1000~500|10000
+档次开启价格,gold_open,0~0~0~50~0
+金币开启4场景VIP限制,gold_open_4,5
+每日免费探索次数,free_tansuo_num,1
+,,
+极速探索档次,quicktansuo,500000~1000000~2000000~5000000~10000000
+,,
+首次探索给予物品,first_gem_item,3020001
+,,
+一键探索开启等级,akey_explore_level_limit,50
+一键探索开启VIP,akey_explore_vip_limit,1
+极速探索开启等级,quick_explore_level_limit,80
+极速探索开启VIP,quick_explore_vip_limit,4

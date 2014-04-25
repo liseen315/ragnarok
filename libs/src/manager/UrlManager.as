@@ -23,6 +23,11 @@ package manager
 			return PathManager.getInstance().xmlPath + name + SuffixConst.SUF_XML;
 		}
 		
+		public function getCSVUrl(name:String):String
+		{
+			return PathManager.getInstance().csvPath + name + SuffixConst.SUF_CSV;
+		}
+		
 		//获取加载背景的图片路径
 		public function getLoadingImgUrl(name:String):String
 		{

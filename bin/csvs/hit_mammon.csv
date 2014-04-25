@@ -1,0 +1,3 @@
+策划备注名,ID,副本名,描述,副本ID,怪物ID,奖励铜钱基数,奖励铜钱级别参数,时间CD,清CD价格,攻打次数,战斗时间
+,id,name,desc,dungeon_id,cha_id,copper,copper_level,time_cd,time_cd_every_gold_sec,hit_num,fight_time
+,1,打财神,大大大大大大,300004,50103001,30000,1000,300~600~1200~2400~3600,60,6,300

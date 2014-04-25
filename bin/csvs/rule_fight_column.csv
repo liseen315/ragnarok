@@ -1,0 +1,86 @@
+名字,,值
+name,type,value
+(已废弃）武力-物攻 参数,s_sa,200
+(已废弃）武力-物防 参数,s_sd,50
+(已废弃）技巧-技攻 参数,d_da,100
+(已废弃）技巧-技防 参数,d_dd,50
+(已废弃）仙法-法攻 参数,m_ma,100
+(已废弃）仙法-法防 参数,m_md,50
+,,
+物理防御 级别参数,sd_levle,1.4
+物理防御 基础参数,sd_base,1000
+(已废弃）技能防御 级别参数,dd_levle,
+(已废弃）技能防御 基础参数,dd_base,
+(已废弃）法宝防御 级别参数,md_levle,
+(已废弃）法宝防御 基础参数,md_base,
+暴击等级 级别参数,ct_levle,0.4
+暴击等级 基础参数,ct_base,400
+抗暴等级 级别参数,rt_levle,0.8
+抗暴等级 基础参数,rt_base,800
+精准等级 级别参数,ae_levle,0.8
+精准等级 基础参数,ae_base,800
+格挡等级 级别参数,py_levle,0.4
+格挡等级 基础参数,py_base,400
+,,
+,,
+,,
+连斩条上限时间,max_time,1000
+连斩条基础时间,base_time,100
+连击会加成的时间,hit_time,20
+被伤害时减少时间,hurt_time,50
+自然衰减时间,reduce_time,1
+连斩段数 增加伤害,sec_hit,50~100~250~500~850~1300~1850~2550~3450~4600~6050
+增加伤害,hit_hurt,20~40~80~140~220~320~440~580~740~920~1120
+（作废）额外伤害伤害加成上限,max_hurt,1000
+连击段数 增加暴击,sec_critical,100~300~600~1000~1500~2100~2800~3600~4500~5500
+每段 增加暴击率,hit_critical,0.01
+暴击增加上限,max_critical,0.1
+,,
+,,
+元力上限（蓝）,vitality_limit,200
+元力默认恢复 每秒,vitality_recover_second,5
+元力受伤恢复 每次伤害,vitality_recover_hurt,1
+无双上限,fatal_limit,10000
+无双每豆,fatal_per,10000
+无双击杀恢复 每怪物,fatal_recover_kill,750
+无双攻击恢复 每连斩,fatal_recover_hit,25
+无双受伤恢复 每次伤害,fatal_recover_hurt,200
+战意上限,warwill_limit,2000
+战意击杀恢复 每怪物,warwill_recover_kill,0
+战意受伤恢复 每次伤害,warwill_recover_hurt,0
+变身战意需求,warwill_shapeshift,2000
+变身后消耗 每秒,warwill_expend_second,50
+战意恢复 每消耗元力,warwill_every_vitality,5
+,,
+,,
+单人时间得分,time_score,100
+单人血量得分,hp_score,100
+单人连斩得分,combo_score,100
+,,
+单项S,single_S_score,100
+单项A,single_A_score,80
+单项B,single_B_score,0
+,,
+SSS,SSS_score,300
+SS,SS_score,285
+S,S_score,270
+A,A_score,200
+B,B_score,0
+（万分之）SSS奖励附加,SSS_score_reward,11500
+（万分之）SS奖励附加,SS_score_reward,11000
+（万分之）S奖励附加,S_score_reward,10500
+（万分之）A奖励附加,A_score_reward,10000
+（万分之）B奖励附加,B_score_reward,10000
+,,
+,,
+组队时间得分,team_time_score,100
+组队伤害得分,team_hurt_score,100
+组队连斩得分,team_combo_score,100
+,,
+PK时间得分,pk_time_score,100
+PK血量得分,pk_hp_score,100
+PK连斩得分,pk_combo_score,100
+,,
+PK时间需求,pk_time_score_need,40
+PK血量需求,pk_hp_score_need,0.6
+PK连斩需求,pk_combo_score_need,10

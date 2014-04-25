@@ -1,0 +1,7 @@
+名字,,值
+name,type,value
+刷新价格,price_refresh_gold,5
+总任务次数,num_all_daily,10
+免费刷新次数,num_free_refresh,1
+立即完成价格,price_at_once_gold,10
+额外奖励积分,extra_reward_score,10~20~30

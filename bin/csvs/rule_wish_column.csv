@@ -1,0 +1,8 @@
+名字,,值
+name,type,value
+祝福铜钱基础,wish_copper_base,5000
+祝福铜钱级别成长,wish_copper_grow,100
+每日祝福次数,wish_num,20
+感谢铜钱基础,thanks_copper_base,5000
+感谢铜钱级别成长,thanks_copper_grow,100
+每日感谢次数,thanks_num,20

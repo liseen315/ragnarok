@@ -24,6 +24,11 @@ package manager
 			return PathConst.pathXML;
 		}
 		
+		public function get csvPath():String
+		{
+			return PathConst.pathCSV;
+		}
+		
 		//获取加载背景图路径
 		public function get loadingImgPath():String
 		{

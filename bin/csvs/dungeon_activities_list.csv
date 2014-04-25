@@ -1,0 +1,9 @@
+策划备注名,副本ID,副本名,描述,章节ID,城镇ID,首关卡ID,背景图,类型,进入等级限制(≥可进入）,进入副本限制,（废弃）任务需求,体力消耗,离线挂机时间,副本组队时间,秒挂机花费（金币）,铜钱奖励,经验奖励,灵力奖励,法宝晶石,首次获得,物品奖励,副本掉落,掉落展示,妖魂亲密度奖励,翻牌品质1掉落组,翻牌品质1数量,翻牌每个品质1权重,翻牌品质2掉落组,翻牌品质2数量,翻牌每个品质2权重,翻牌品质3掉落组,翻牌品质3数量,翻牌每个品质3权重,翻牌价格,显血条BOSS,结束boss,时间得分,血量得分,连斩得分,伤害得分,boss单管血量,购买价格,关底boss限时
+,id,name,desc,chapter_id,town_id,first_scene,pic,type,unlock_level,unlock_dungeon,unlock_task,action_expend,hang_time,team_time,hang_gold,cop_reward,exp_reward,wakan_reward,talisman_chip_reward,first_item_reward,item_reward,dungeon_drop,drop_show,intimacy_demon,cards1_drop,cards1_num,every_cards1_weight,cards2_drop,cards2_num,every_cards2_weight,cards3_drop,cards3_num,every_cards3_weight,cards_price,last_boss,finish_boss,time_score,hp_score,combo_score,hurt_score,hp_boss,num_gold_price,finish_boss_limit_time
+,300001,世界boss副本,,,,1002,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,50100001,,,,,,1000000,,
+,300002,积分boss副本,,,,1003,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,50101001,,,,,,1000000,,
+,300003,公会boss副本,,,,1004,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,50102001,,,,,,100000,,
+,300004,打财神副本,,,,1005,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,50103001,,,,,,10000,,
+,300005,竞技场,,,,1006,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,300006,跨服竞技场,,,,1007,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,300007,工会战战斗场景,,,,1009,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,6 @@
+职业ID,职业名,生命,攻击,防御,魂力,暴击等级,格挡等级
+id,name,hp_strengthen,attack_strengthen,defense_strengthen,soul_strengthen,crit_strengthen,parray_strengthen
+1,悟空,160,,,,,
+2,重楼,160,,,,,
+3,龙女,160,,,,,
+4,白骨精,160,,,,,

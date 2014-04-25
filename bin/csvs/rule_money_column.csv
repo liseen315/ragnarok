@@ -1,0 +1,10 @@
+名字,,值
+name,type,value
+累计签到 补签价格,check_total_repair_price,50
+累计签到 补签次数上限,check_total_repair_num,25
+,,
+摇钱树 每次摇钱 经验增长,every_num_exp,10
+浇水 奖励铜钱,watering_copper,2000
+浇水 经验增长,watering_exp,2
+每日 浇水次数,watering_num_limit,10
+每日被浇水次数,be_watering_num_limit,10

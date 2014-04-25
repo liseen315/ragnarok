@@ -1,0 +1,67 @@
+名字,,值
+name,type,value
+铜钱洗练价格,cop_price_polish,1000
+铜钱洗练期望价值,cop_expectation_polish,100
+（万分之）铜钱洗练价值幅度,cop_range_polish,2750
+（万分之）铜钱洗练价值上限,cop_toplimit_polish,2500
+1级金币洗练VIP需求,polish_vip_limit_1,2
+1级金币洗练价格,gold_price_polish_1,2
+1级金币洗练期望价值,gold_expectation_polish_1,100
+（万分之）1级金币洗练价值幅度,gold_range_polish_1,5500
+（万分之）1级金币洗练价值上限,gold_toplimit_polish_1,5000
+2级金币洗练VIP需求,polish_vip_limit_2,5
+2级金币洗练价格,gold_price_polish_2,10
+2级金币洗练期望价值,gold_expectation_polish_2,150
+（万分之）2级金币洗练价值幅度,gold_range_polish_2,8250
+（万分之）2级金币洗练价值上限,gold_toplimit_polish_2,7500
+3级金币洗练VIP需求,polish_vip_limit_3,8
+3级金币洗练价格,gold_price_polish_3,50
+3级金币洗练期望价值,gold_expectation_polish_3,200
+（万分之）3级金币洗练价值幅度,gold_range_polish_3,11000
+（万分之）3级金币洗练价值上限,gold_toplimit_polish_3,10000
+,,
+随机洗练 属性权重,,
+生命,hp,50
+攻击,attack,50
+防御,defense,30
+魂力,soul,5
+暴击,crit,20
+格挡,parray,25
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+（万分之）随机洗练价值下限,random_polish_lowerlimit,500
+（万分之）随机洗练价值上限,random_polish_toplimit,1000
+,,
+,,
+0锁随机洗练价格 铜钱,lock_cop_random_polish_0,10000
+1锁随机洗练价格 铜钱,lock_cop_random_polish_1,30000
+2锁随机洗练价格 铜钱,lock_cop_random_polish_2,90000
+3锁随机洗练价格 铜钱,lock_cop_random_polish_3,270000
+4锁随机洗练价格 铜钱,lock_cop_random_polish_4,810000
+5锁随机洗练价格 铜钱,lock_cop_random_polish_5,2430000
+6锁随机洗练价格 铜钱,lock_cop_random_polish_6,7290000
+7锁随机洗练价格 铜钱,lock_cop_random_polish_7,21870000
+8锁随机洗练价格 铜钱,lock_cop_random_polish_8,65610000
+9锁随机洗练价格 铜钱,lock_cop_random_polish_9,196830000
+0锁随机洗练价格 金币,lock_gold_random_polish_0,10
+1锁随机洗练价格 金币,lock_gold_random_polish_1,15
+2锁随机洗练价格 金币,lock_gold_random_polish_2,20
+3锁随机洗练价格 金币,lock_gold_random_polish_3,25
+4锁随机洗练价格 金币,lock_gold_random_polish_4,30
+5锁随机洗练价格 金币,lock_gold_random_polish_5,35
+6锁随机洗练价格 金币,lock_gold_random_polish_6,40
+7锁随机洗练价格 金币,lock_gold_random_polish_7,45
+8锁随机洗练价格 金币,lock_gold_random_polish_8,50
+9锁随机洗练价格 金币,lock_gold_random_polish_9,55
+,,
+,,
+传承价格（铜币）,copper_inherit,1|5000~2|10000~3|20000~4|40000~5|80000~6|160000~7|320000

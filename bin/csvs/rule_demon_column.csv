@@ -1,0 +1,17 @@
+名字,,值
+name,type,value
+(已废弃）金币购买亲密度,gold_price_intimacy,10|500~1000|50000
+(已废弃）技能教学亲密度级别需求,learn_intimacy_level,40
+(已废弃）天赋技能教学价格,learn_talent_gold,500
+(已废弃）天赋技能重置价格,reset_talent_gold,50
+(已废弃）经验传承价格,learn_intimacy_gold,500
+,,
+(已废弃）被动技能开启亲密度等级,open_passive_skills_intimacy_level,0~7~14~21~28
+(已废弃）铜钱随机洗练价格,cop_lock_random_passive,10000~30000~90000~270000~810000
+(已废弃）金币随机洗练价格,gold_lock_random_passive,5~10~15~20~25
+,,
+妖魂额外亲密度等级,demon_intimacy_extra,0
+,,
+,,
+突破需要物品,break_need_item_id,1000005
+突破需要物品 价格,break_need_item_price,50

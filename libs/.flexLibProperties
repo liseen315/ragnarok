@@ -49,6 +49,8 @@
     <classEntry path="loaders.InitLoader"/>
     <classEntry path="consts.XmlConst"/>
     <classEntry path="manager.XmlManager"/>
+    <classEntry path="manager.CSVManager"/>
+    <classEntry path="consts.CsvConst"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

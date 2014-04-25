@@ -1,0 +1,3 @@
+策划备注,公会bossID,名字,副本ID,bossID,准备时间,战斗时间,升级时间,奖励ID,最大等级
+,id,name,dungeon_id,cha_id,ready_time,fight_time,grow_time,reward_id,max_level
+(各表大boss ID不可重）公会内部boss,200,公会boss,300003,50102001,180,1200,300,200,40

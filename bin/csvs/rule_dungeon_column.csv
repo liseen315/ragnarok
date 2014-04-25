@@ -1,0 +1,23 @@
+名字,,值
+name,type,value
+（废弃）精英副本每日次数|级别,elite_num_day_level,13|5~35|4~50|5~65|6~80|7~95|8~110|9
+（废弃）精英副本 级别 赠送次数,elite_num_give_level,26|1~29|1~31|1~32|1~35|1~35|1~37|1~38|1~39|1~44|1~47|1~52|1~53|1~57|1~61|1~65|1~69|1~73|1~78|1~80|1~81|1~87|1~91|1
+,,
+魔王副本挂机级别限制（低于自己20级的本 才允许挂机）,devil_hang_level_limit,20
+,,
+普通本 挂机扫荡 免费立即完成VIP等级需求,free_hang_vip_limit,1
+精英本 挂机扫荡 免费立即完成VIP等级需求,elite_free_hang_vip_limit,4
+魔王本 挂机扫荡 免费立即完成VIP等级需求,devil_free_hang_vip_limit,6
+,,
+魔王本 翻盘 最大张数,devil_cards_max,3
+魔王本 单人翻盘 时间(秒）,devil_alone_cards_time,30
+魔王本 翻盘 时间(秒）,devil_cards_time,30
+副本通关排行榜 记录几位,dungeon_record_num,3
+,,
+精英本 副本令 ID,elite_order_item,1000006
+魔王本 副本令 ID,devil_order_item,1000007
+,,
+精英本 翻盘等级限制,elite_cards_level_limit,30
+精英本 翻盘 限制张数,elite_cards_num_limit,1
+精英本 翻盘 最大张数,elite_cards_max,3
+精英本 单人翻盘 时间(秒）,elite_alone_cards_time,30

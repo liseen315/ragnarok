@@ -1,0 +1,26 @@
+名字,,值
+name,type,value
+体力上限,act_toplimit,300
+体力恢复 单位时间(s),act_rec_time,1800
+体力恢复 单次数量,act_recover,5
+体力单次购买 数量,act_buy_num,40
+,,
+,,
+,,
+金币上限,gold_toplimit,99999999
+(默认乘10000）游戏币上限,cop_toplimit,1999999999
+灵力上限,wak_toplimit,1999999999
+阅历上限,pra_toplimit,1999999999
+灵石上限,sto_toplimit,1999999999
+,,
+,,
+法宝1槽开启等级,talisman1_level,5
+法宝1槽开启VIP,talisman1_vip,0
+法宝2槽开启等级,talisman2_level,20
+法宝2槽开启VIP,talisman2_vip,2
+法宝3槽开启等级,talisman3_level,40
+法宝3槽开启VIP,talisman3_vip,5
+法宝4槽开启等级,talisman4_level,60
+法宝4槽开启VIP,talisman4_vip,8
+,,
+可见人数设置,can_see_people,0~20~50~100~9999

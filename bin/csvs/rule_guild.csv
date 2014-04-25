@@ -1,0 +1,47 @@
+名字,,值
+name,type,value
+公会创建铜钱,set_up_guild_copper,500000
+公会最大申请次数,guild_apply_num_max,3
+申请移除时间,apply_guild_hour,12
+退会冷却时间,out_guild_hour,24
+弹劾会长时间,impeachment_guild_hour,24
+弹劾费用,impeachment_gold_price,200
+,,
+公会铜钱捐款参数 基数~级别参数,donate_copper_parameter,10000~1000
+公会铜钱捐款 转 贡献参数,donate_copper_contribute_parameter,100
+贡献 转 公会经验  参数,contribute_guild_exp_parameter,1
+公会金币捐款1 价格,donate_gold1_price,10
+公会金币捐款1 奖励,donate_gold1_num,7|50~5|500
+公会金币捐款1 奖励积分,donate_gold1_score,2
+公会金币捐款2 价格,donate_gold2_price,50
+公会金币捐款2 奖励,donate_gold2_num,7|200~5|2500
+公会金币捐款2 奖励积分,donate_gold2_score,4
+公会金币捐款3 价格,donate_gold3_price,100
+公会金币捐款3 奖励,donate_gold3_num,7|300~5|5000
+公会金币捐款3 奖励积分,donate_gold3_score,6
+公会金币捐款4 价格,donate_gold4_price,200
+公会金币捐款4 奖励,donate_gold4_num,7|550~5|9000
+公会金币捐款4 奖励积分,donate_gold4_score,8
+公会金币捐款5 价格,donate_gold5_price,500
+公会金币捐款5 奖励,donate_gold5_num,7|1000~5|20000
+公会金币捐款5 奖励积分,donate_gold5_score,10
+,,
+公会铜钱祭天价格,worship_copper1_price,80000
+公会铜钱祭天奖励,worship_copper1_reward,7|50~5|500~14|10
+公会金币祭天1价格,worship_gold1_price,20
+公会金币祭天1奖励,worship_gold1_reward,7|100~5|1000~14|20
+公会金币祭天2价格,worship_gold2_price,200
+公会金币祭天2奖励,worship_gold2_reward,7|1000~5|6000~14|50
+,,
+祭天开启,worship_start,2
+（仅前端）公会战开启,guild_war_start,3
+（仅前端）公会boss开启,guild_boss_start,4
+,,
+积分世界boss 伤害buff价格,score_world_boss_buff1_gold_price,1000
+积分世界boss 伤害buff,score_world_boss_buff1,50001
+积分世界boss 暴击buff价格,score_world_boss_buff2_gold_price,1000
+积分世界boss 暴击buff,score_world_boss_buff2,50002
+积分世界boss 霸体buff价格,score_world_boss_buff3_gold_price,1000
+积分世界boss 霸体buff,score_world_boss_buff3,50003
+积分世界boss 斩杀buff价格,score_world_boss_buff5_gold_price,1000
+积分世界boss 斩杀buff,score_world_boss_buff5,50005

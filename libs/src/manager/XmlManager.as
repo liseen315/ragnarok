@@ -21,7 +21,12 @@ package manager
 			}
 			return _instance;
 		}
-		
+		/**
+		 *保存xml数据到管理器 
+		 * @param name		xml名->key
+		 * @param dataValue	XML数据
+		 * 
+		 */		
 		public function saveXML(name:String,dataValue:XML):void
 		{
 			this._xmlDic[name] = dataValue;

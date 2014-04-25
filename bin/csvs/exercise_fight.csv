@@ -1,0 +1,6 @@
+策划备注,练习关卡ID,副本名,元力上限（蓝）,元力默认恢复 每秒,元力受伤恢复 每次伤害,无双上限,无双每豆,无双击杀恢复 每怪物,无双攻击恢复 每连斩,无双受伤恢复 每次伤害,战意上限,战意击杀恢复 每怪物,战意受伤恢复 每次伤害,变身战意需求,变身后消耗 每秒,战意恢复 每消耗元力
+,exercise_id,name,exercise_vitality_limit,exercise_vitality_recover_second,exercise_vitality_recover_hurt,exercise_fatal_limit,exercise_fatal_per,exercise_fatal_recover_kill,exercise_fatal_recover_hit,exercise_fatal_recover_hurt,exercise_warwill_limit,exercise_warwill_recover_kill,exercise_warwill_recover_hurt,exercise_warwill_shapeshift,exercise_warwill_expend_second,exercise_warwill_every_vitality
+,300100,剧情引导关卡,200,5,1,10000,10000,1000,50,200,2000,0,0,2000,50,5
+,300101,妖魂引导关卡,300,0,1,10000,10000,0,0,0,3000,0,0,2950,25,10
+,300102,法宝引导关卡,200,5,1,10000,10000,1000,50,200,2000,0,0,2000,50,5
+,300103,无双引导关卡,200,5,1,10000,10000,1000,50,200,2000,0,0,2000,50,5

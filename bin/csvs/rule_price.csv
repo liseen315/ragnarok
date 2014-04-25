@@ -1,0 +1,16 @@
+名字,,货币ID,图标,小图标,品质
+name,type,price_id,ico,ico_small,quality
+铜钱,copper,1,icon/copperBig.png,icon/copper.png,1
+金币,gold,2,icon/goldBig.png,icon/gold.png,5
+灵力,wakan,3,icon/wakanBig.png,icon/wakan.png,2
+,,,,,
+贡献值,contribute,5,,,3
+体力,action,6,icon/tili.png,,5
+声望,prestige,7,icon/prestigeBig.png,icon/prestige.png,4
+,,,,,
+,,,,,
+物品,item,10,,,
+法宝晶石,talisman_chip,11,icon/talismanChipBig.png,icon/talismanChip.png,4
+,,,,,
+,,,,,
+祭天奖励次数,worship_buff_num,14,,,3

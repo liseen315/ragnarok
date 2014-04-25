@@ -1,0 +1,11 @@
+名字,,值
+name,type,value
+铜钱购买价格,cop_price_star,100000
+铜钱购买给予灵石,cop_get_star,500
+金币1购买价格,gold1_price_star,50
+金币1购买给予灵石,gold1_get_star,125
+金币2购买价格,gold2_price_star,5000
+金币1购买给予灵石,gold2_get_star,12500
+,,
+星盘经验加速价格基础,star_exp_price_base,0
+星盘经验加速价格成长,star_exp_price_grow,1

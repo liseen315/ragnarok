@@ -1,0 +1,8 @@
+名字,,值
+m,name,value
+猎宝次数累计上限,treasure_num_max,20
+每日最多刷新次数,refresh_num_max,500
+刷新价格,refresh_price,10
+免费刷新开启价格,free_refresh_price,10000
+栏位开启等级,treasure_place_level,20~30~40~50
+免费刷新需求VIP等级,vip_free_refresh_price,9
