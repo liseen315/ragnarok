@@ -46,6 +46,7 @@
     <classEntry path="manager.XmlManager"/>
     <classEntry path="consts.CsvConst"/>
     <classEntry path="consts.NetConst"/>
+    <classEntry path="events.SocketDataEvent"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

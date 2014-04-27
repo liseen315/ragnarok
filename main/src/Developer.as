@@ -18,7 +18,7 @@ package
 			GlobalVars.param.GM = 0;
 			GlobalVars.param.assetPath = "";
 			GlobalVars.param.bbsUrl = "";
-			GlobalVars.param.cachePath = "";
+			GlobalVars.param.cachePath = "http://static1.zuiyouxi.com/xiyou/web/cache/2014041623/";
 			GlobalVars.param.canRecharge = 1;
 			//GlobalVars.param.clientDownLoad
 			GlobalVars.param.configURL = "http://static1.zuiyouxi.com/xiyou/web/main/2014041717/loadingTips.xml";
@@ -29,7 +29,7 @@ package
 			GlobalVars.param.reward = 1;
 			GlobalVars.param.server = "S16";
 			GlobalVars.param.serverID = "game50020016";
-			GlobalVars.param.hash = "cce380c109d6b631822ef946a99ac165";
+			GlobalVars.param.hash = "a7e420234f1020e8512cc88a5e6ef556";
 		}
 	}
 }

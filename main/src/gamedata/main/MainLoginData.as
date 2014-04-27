@@ -42,6 +42,7 @@ package gamedata.main
 		
 		private function connected(e:Event):void
 		{
+			trace("connected");
 			BabelTimeSocket.getInstance().removeEventListener(Event.CONNECT, this.connected);
 			BabelTimeSocket.getInstance().useEncrypt = true;
 			var callBack:SocketCallback = new SocketCallback(NetConst.RE_LOGIN);

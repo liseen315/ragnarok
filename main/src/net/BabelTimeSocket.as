@@ -4,6 +4,8 @@ package net
 	import com.hurlant.crypto.symmetric.CBCMode;
 	import com.hurlant.crypto.symmetric.DESKey;
 	
+	import events.SocketDataEvent;
+	
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
@@ -44,6 +46,10 @@ package net
 		private var _des:DESKey;
 		private var _cbc:CBCMode;
 		private var _md5:MD5;
+		private var _bodySize:uint = 0;
+		private var _bodyEncrypt:int;
+		private var _bodyCompressed:Boolean;
+		private var _useOldProtocol:Boolean;
 		
 		public var onCloseCallback:Function;
 		public function BabelTimeSocket()
@@ -258,7 +264,54 @@ package net
 		
 		private function parseData():void
 		{
-			
+			var original:Object;
+			var bodyData:ByteArray;
+			var ivData:ByteArray;
+			var decryptData:ByteArray;
+			while(this._socket.bytesAvailable)
+			{
+				switch(this._currentParseStatus)
+				{
+					case STATUS_PARSEHEAD:
+						if (this._socket.bytesAvailable >= HEAD_LENGTH){
+							this._bodySize = this._socket.readUnsignedInt();
+							this._bodyEncrypt = this._socket.readByte();
+							this._bodyCompressed = !((this._socket.readByte() == 0));
+							this._useOldProtocol = (this._socket.readByte() == 0);
+							this._socket.readByte();
+							this._currentParseStatus = STATUS_PARSEBODY;
+						} else {
+							return;
+						}
+						break;
+					case STATUS_PARSEBODY:
+						if (this._socket.bytesAvailable >= this._bodySize){
+							bodyData = new ByteArray();
+							bodyData.objectEncoding = this._socket.objectEncoding;
+							this._socket.readBytes(bodyData, 0, this._bodySize);
+							ivData = new ByteArray();
+							bodyData.readBytes(ivData, 0, 8);
+							ivData.position = 0;
+							decryptData = new ByteArray();
+							bodyData.readBytes(decryptData, 0);
+							decryptData.position = 0;
+							this.setIV(ivData);
+							if (this._bodyEncrypt == -1){
+								this.decrypt(decryptData);
+							}
+							if (this._bodyCompressed){
+								decryptData.uncompress();
+							}
+							original = decryptData.readObject();
+							this._bodySize = 0;
+							this._currentParseStatus = STATUS_PARSEHEAD;
+							this.handleResult(original, this._useOldProtocol);
+						} else {
+							return;
+						}
+						break;
+				}
+			}
 		}
 		
 		private function onSecurityError(e:SecurityErrorEvent):void
@@ -305,6 +358,76 @@ package net
 				return (this.getRandomCallbackParamID());
 			}
 			return randomSeed;
+		}
+		
+		private function handleResult(data:Object,oldProtocol:Boolean=true):void
+		{
+			var retList:Array;
+			var dataObj:Object;
+			if(data.time)
+			{
+				this.setSystemTime(data.time*1000);
+			}
+			var tempToken:String = this.token;
+			if(data.token)
+			{
+				this.token = data.token
+			}
+			
+			if (oldProtocol){
+				this.handCallback(data, tempToken);
+			} else {
+				retList = data.ret;
+				for each (dataObj in retList) {
+					this.handCallback(dataObj, tempToken);
+				}
+			}
+		}
+		
+		private function setSystemTime(timeValue:Number=0):void
+		{
+			if (timeValue <= 0){
+				throw new Error("错误的系统时间:" + timeValue);
+			}
+			trace("系统时间---->",timeValue);
+		}
+		
+		private function handCallback(data:Object,token:String):void
+		{
+			var tempData:Object;
+			var socketDataEvent:SocketDataEvent;
+			var parameID:uint;
+			if(data is ByteArray)
+			{
+				tempData = ByteArray(data).readObject();
+				ByteArray(data).clear();
+			}else{
+				tempData = data;
+			}
+			
+			if (tempData.err == "ping"){
+				return;
+			}
+			if (tempData.err != "ok"){
+				return;
+			}
+			
+			var callBackName:String = tempData.callback.callbackName;
+			if(this.hasEventListener(callBackName))
+			{
+				socketDataEvent = new SocketDataEvent(callBackName);
+				socketDataEvent.data = tempData.ret;
+				if (tempData.callback.callbackParameID != null){
+					parameID = tempData.callback.callbackParameID;
+					socketDataEvent.callbackParames = this._callbackParamDic[parameID];
+					delete this._callbackParamDic[parameID];
+				}
+				socketDataEvent.error = tempData.err;
+				this.dispatchEvent(socketDataEvent);
+				
+			}else{
+				trace("不存在消息监听 : " + callBackName);
+			}
 		}
 	}
 }
