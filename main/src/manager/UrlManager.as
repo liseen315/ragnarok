@@ -47,5 +47,9 @@ package manager
 		public function getModuleUrl(name:String):String{
 			return PathManager.getInstance().modulePath + name + SuffixConst.SUF_SWF;
 		}
+		
+		public function getResUrl(value:String):String{
+			return  value;
+		}
 	}
 }

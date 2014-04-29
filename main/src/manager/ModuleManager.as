@@ -21,9 +21,11 @@ package manager
 		private static var _instance:ModuleManager;
 		
 		private var _moduleDic:Dictionary;
+		private var _asset:Dictionary;
 		public function ModuleManager()
 		{
 			this._moduleDic = new Dictionary();
+			this._asset = new Dictionary();
 		}
 		
 		public static function getInstance():ModuleManager
@@ -54,7 +56,6 @@ package manager
 		 */		
 		public function hasModule(moduleName:String):Vector.<LoaderDTO>
 		{
-			trace("hasModule-----------------",moduleName);
 			if(moduleName == null)
 			{
 				return null;
@@ -89,14 +90,30 @@ package manager
 					{
 						resLoaderDTO = new LoaderDTO();
 						path = resXMLList[j].toString();
-						trace("@@@@@path-----",path);
+						if(path.indexOf(SuffixConst.SUF_XML)!=-1)
+						{
+						
+						}else{
+							if(path.indexOf(SuffixConst.SUF_CSV) != -1)
+							{
+								
+							}else{
+								if(!this._asset[path])
+								{
+									resLoaderDTO.id = path;
+									resLoaderDTO.context = GlobalVars.context;
+									resLoaderDTO.callbackParam = {fix:SuffixConst.SUF_SWF};
+									resLoaderDTO.url = UrlManager.getInstance().getResUrl(path);
+									loaderDTOList.push(resLoaderDTO);
+								}
+							}
+						}
 						j++;
 					}
 					break;
 				}
 				i++;
 			}
-			
 			
 			return loaderDTOList
 		}
