@@ -88,7 +88,7 @@ package manager
 					while(j<resLen)
 					{
 						resLoaderDTO = new LoaderDTO();
-						path = xmlList[j].toString();
+						path = resXMLList[j].toString();
 						trace("@@@@@path-----",path);
 						j++;
 					}
