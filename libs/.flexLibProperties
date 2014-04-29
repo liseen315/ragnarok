@@ -47,6 +47,9 @@
     <classEntry path="consts.CsvConst"/>
     <classEntry path="consts.NetConst"/>
     <classEntry path="events.SocketDataEvent"/>
+    <classEntry path="vos.ChangeSceneDTO"/>
+    <classEntry path="consts.SceneConst"/>
+    <classEntry path="consts.PannelName"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

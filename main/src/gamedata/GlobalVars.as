@@ -15,6 +15,7 @@ package gamedata
 		public static var context:LoaderContext;
 		public static var host:String = "";
 		public static var port:int = -1;
+		public static var sceneId:int = -1;
 		
 		public static var param:Object = {};
 		public function GlobalVars()

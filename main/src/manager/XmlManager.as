@@ -41,5 +41,19 @@ package manager
 		public function get ziplist():Array{
 			return [XmlConst.xd];
 		}
+		
+		public function getXML(name:String):XML
+		{
+			if (this._xmlDic[name]){
+				return (this._xmlDic[name]);
+			};
+			this.loadXML(name);
+			return null;
+		}
+		
+		private function loadXML(nameValue:String):void
+		{
+			
+		}
 	}
 }

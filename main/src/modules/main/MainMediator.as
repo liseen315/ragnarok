@@ -9,6 +9,7 @@ package modules.main
 	
 	import game.screen.ScreenShake;
 	
+	import gamedata.Relation;
 	import gamedata.main.MainLoginData;
 	
 	import observer.Notification;
@@ -80,6 +81,7 @@ package modules.main
 		//启动
 		private function mainRun():void
 		{
+			Relation.getInstance().register();
 			var screenShark:ScreenShake = new ScreenShake();
 			MainLoginData.getInstance().login();
 		}

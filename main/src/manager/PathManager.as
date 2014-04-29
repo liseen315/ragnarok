@@ -44,5 +44,9 @@ package manager
 		{
 			return PathConst.pathLoadingImg;
 		}
+		
+		public function get modulePath():String{
+			return  PathConst.pathModule;
+		}
 	}
 }

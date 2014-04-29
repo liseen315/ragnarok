@@ -25,6 +25,7 @@ package modules.main
 		{
 			var mainLoadMediator:MainLoadMediator = new MainLoadMediator();
 			var mainMediator:MainMediator = new MainMediator();
+			var mainSceneMediator:MainSceneMediator = new MainSceneMediator();
 			
 			LDispatch.addListener(LoadingNote.LOADING_IMG_LOADED,this.registerReady);
 			

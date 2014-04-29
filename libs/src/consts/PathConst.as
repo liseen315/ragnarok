@@ -7,5 +7,6 @@ package consts
 		public static const pathCSV:String = "csvs/";
 		public static const pathAis:String = "ais/";
 		public static const pathEdited:String = "edited/";
+		public static const pathModule:String = "modules/";
 	}
 }

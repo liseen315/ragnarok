@@ -42,5 +42,10 @@ package manager
 		{
 			return PathManager.getInstance().loadingImgPath + name + "_img" + SuffixConst.SUF_JPEG;
 		}
+		
+		//获取模块的路径
+		public function getModuleUrl(name:String):String{
+			return PathManager.getInstance().modulePath + name + SuffixConst.SUF_SWF;
+		}
 	}
 }
