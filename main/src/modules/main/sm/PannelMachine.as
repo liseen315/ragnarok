@@ -56,6 +56,7 @@ package modules.main.sm
 			{
 				throw(new Error("arr 没有数据"));
 			}
+			var fusionList:Vector.<LoaderDTO> = new Vector.<LoaderDTO>();
 			var index:int = 0;
 			while(index < pannelLen)
 			{
@@ -81,8 +82,17 @@ package modules.main.sm
 			while(index < moduleLen)
 			{
 				loaderDTOList = ModuleManager.getInstance().hasModule(moduleList[index]);
-				
+				if (loaderDTOList && loaderDTOList.length > 0){
+					fusionList = this.fusionArray(fusionList, loaderDTOList);
+				}
 				index++;
+			}
+			
+			if(fusionList.length==0)
+			{
+				this.openModulePannel();
+			}else{
+				this.loadModulePart(fusionList);
 			}
 			
 		}
@@ -90,6 +100,53 @@ package modules.main.sm
 		private function clearAllPannel():void
 		{
 			
+		}
+		
+		private function openModulePannel():void
+		{
+			
+		}
+		
+		private function loadModulePart(value:Vector.<LoaderDTO>):void
+		{
+			
+		}
+		
+		//融合
+		private function fusionArray(list1:Vector.<LoaderDTO>, list2:Vector.<LoaderDTO>):Vector.<LoaderDTO>
+		{
+			var fusionList:Vector.<LoaderDTO> = list1.slice();
+			var list2Len:int = list2.length;
+			var list1Len:int
+			var isSame:Boolean
+			var i:int = 0;
+			var j:int = 0;
+			var id2:String;
+			var id1:String;
+			while(i<list2Len)
+			{
+				id2 = list2[i].id;
+				list1Len = fusionList.length;
+				isSame = false;
+				j = 0;
+				while(j<list1Len)
+				{
+					id1 = fusionList[j].id;
+					if(id1 == id2)
+					{
+						isSame = true;
+						break;
+					}
+					j++;
+				}
+				
+				if(!isSame)
+				{
+					fusionList.push(list2[i]);
+				}
+				i++;
+			}
+			return fusionList
 		}
 	}
 }
